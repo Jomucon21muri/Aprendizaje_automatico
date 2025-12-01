@@ -1,5 +1,5 @@
-# Contenido Teórico: Conceptos Básicos de IA
-## Inteligencia Artificial - Bloque 1
+# Contenido teórico: Conceptos básicos de IA
+## Sistemas de aprendizaje automático - Bloque 0
 
 ## 1. Introducción a la Inteligencia Artificial
 

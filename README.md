@@ -1,8 +1,8 @@
-# 📚 Curso de Especialización en Aprendizaje Automático
+# 📚 Curso de especialización en aprendizaje automático
 
-Repositorio de formación integral en **Inteligencia Artificial, Machine Learning y Big Data** con teoría, mapas conceptuales y ejercicios prácticos.
+Repositorio de formación integral en **machine learning y big data** con teoría, mapas conceptuales y ejercicios prácticos.
 
-## 🎯 Competencia General
+## 🎯 Competencia general
 
 Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la información y la explotación de datos masivos, garantizando:
 - ✅ Acceso seguro a datos
@@ -12,109 +12,91 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 
 ---
 
-## 📖 Módulos del Curso
+## 📖 Módulos del curso
 
-### 1. 🤖 [Inteligencia Artificial](./01_Inteligencia_Artificial/)
+### 1. 🧠 [Sistemas de aprendizaje automático](./01_Sistemas_aprendizaje_automatico/)
 
-**Objetivo**: Comprender y aplicar sistemas inteligentes desde conceptos básicos hasta redes neuronales avanzadas.
+**Objetivo**: Dominar técnicas de machine learning desde conceptos básicos hasta deep learning avanzado y aprendizaje por refuerzo.
 
-#### Bloques de Contenido:
-
-| Bloque | Tema | Contenido |
-|--------|------|----------|
-| **1** | [Conceptos Básicos de IA](./01_Inteligencia_Artificial/01_Conceptos_Basicos_IA/) | Definición, historia, tipos de IA, aplicaciones |
-| **2** | [Sistemas Expertos](./01_Inteligencia_Artificial/02_Sistemas_Expertos/) | Arquitectura, base de conocimiento, motor de inferencia |
-| **3** | [Redes Neuronales](./01_Inteligencia_Artificial/03_Redes_Neuronales/) | Neurona artificial, arquitecturas, entrenamiento |
-
-Recursos por bloque:
-- 📊 **Mapa_Conceptual.md**: Esquema visual de conceptos
-- 📖 **Teoria.md**: Explicación teórica detallada
-- 📝 **Tarea.md**: Ejercicio práctico propuesto
-
-**Información Adicional**: [Recursos complementarios](./01_Inteligencia_Artificial/Informacion_Adicional.md)
-
----
-
-### 2. 🧠 [Sistemas de Aprendizaje Automático](./02_Sistemas_Aprendizaje_Automatico/)
-
-**Objetivo**: Dominar técnicas de Machine Learning supervisado, no supervisado, deep learning avanzado y aprendizaje por refuerzo.
-
-#### Bloques de Contenido:
+#### Bloques de contenido:
 
 | Bloque | Tema | Contenido |
 |--------|------|----------|
-| **1** | [ML Supervisado](./02_Sistemas_Aprendizaje_Automatico/01_ML_Supervisado/) | Clasificación, regresión, algoritmos clásicos |
-| **2** | [ML No Supervisado](./02_Sistemas_Aprendizaje_Automatico/02_ML_No_Supervisado/) | Clustering, reducción de dimensionalidad, anomalías |
-| **3** | [Validación y Evaluación](./02_Sistemas_Aprendizaje_Automatico/03_Validacion_Evaluacion/) | Métricas, validación cruzada, ajuste de hiperparámetros |
-| **4** | [Deep Learning](./02_Sistemas_Aprendizaje_Automatico/04_Deep_Learning/) | CNN, RNN, Autoencoders, GANs, Transfer Learning |
-| **5** | [Transformers](./02_Sistemas_Aprendizaje_Automatico/05_Transformers/) | Attention, BERT, GPT, ViT, arquitecturas modernas |
-| **6** | [Large Language Models (LLM)](./02_Sistemas_Aprendizaje_Automatico/06_LLM/) | GPT, Claude, prompting, RAG, fine-tuning |
-| **7** | [Reinforcement Learning](./02_Sistemas_Aprendizaje_Automatico/07_Reinforcement_Learning/) | Q-Learning, Policy Gradient, Actor-Critic, DQN |
+| **0** | [Conceptos básicos de IA](./01_Sistemas_aprendizaje_automatico/00_Conceptos_basicos_ia/) | Definición, historia, tipos de IA, aplicaciones |
+| **1** | [ML supervisado](./01_Sistemas_aprendizaje_automatico/01_Ml_supervisado/) | Clasificación, regresión, algoritmos clásicos |
+| **2** | [ML no supervisado](./01_Sistemas_aprendizaje_automatico/02_Ml_no_supervisado/) | Clustering, reducción de dimensionalidad, anomalías |
+| **3** | [Validación y evaluación](./01_Sistemas_aprendizaje_automatico/03_Validacion_evaluacion/) | Métricas, validación cruzada, ajuste de hiperparámetros |
+| **4** | [Deep learning](./01_Sistemas_aprendizaje_automatico/04_Deep_learning/) | CNN, RNN, autoencoders, GANs, transfer learning |
+| **5** | [Transformers](./01_Sistemas_aprendizaje_automatico/05_Transformers/) | Attention, BERT, GPT, ViT, arquitecturas modernas |
+| **6** | [Large language models (LLM)](./01_Sistemas_aprendizaje_automatico/06_Llm/) | GPT, Claude, prompting, RAG, fine-tuning |
+| **7** | [Reinforcement learning](./01_Sistemas_aprendizaje_automatico/07_Reinforcement_learning/) | Q-learning, policy gradient, actor-critic, DQN |
+| **8** | [Sistemas expertos](./01_Sistemas_aprendizaje_automatico/08_Sistemas_expertos/) | Arquitectura, base de conocimiento, motor de inferencia |
 
 Recursos por bloque:
 - 📊 **Mapa_Conceptual.md**: Categorización de algoritmos
 - 📖 **Teoria.md**: Fundamentos matemáticos y conceptuales
 - 📝 **Tarea.md**: Implementación práctica
 
-**Información Adicional**: [Recursos complementarios](./02_Sistemas_Aprendizaje_Automatico/Informacion_Adicional.md)
+**Información adicional**: [Recursos complementarios](./01_Sistemas_aprendizaje_automatico/Informacion_Adicional.md)
 
 ---
 
-### 3. 📊 [Big Data](./03_Big_Data/)
+### 2. 📊 [Big data](./02_Big_data/)
 
 **Objetivo**: Gestionar y analizar datos masivos con tecnologías distribuidas modernas y técnicas de minería.
 
-#### Bloques de Contenido:
+#### Bloques de contenido:
 
 | Bloque | Tema | Contenido |
 |--------|------|----------|
-| **1** | [Fundamentos Big Data](./03_Big_Data/01_Fundamentos_Big_Data/) | Las 5 Vs, arquitectura, tecnologías clave |
-| **2** | [Herramientas Procesamiento](./03_Big_Data/02_Herramientas_Procesamiento/) | Hadoop, Spark, stream processing, alternativas |
-| **3** | [Análisis Datos Masivos](./03_Big_Data/03_Analisis_Datos_Masivos/) | ETL, EDA, ML distribuido, visualización |
-| **4** | [Minería de Datos](./03_Big_Data/04_Mineria_Datos/) | CRISP-DM, técnicas predictivas, descriptivas, deployment |
+| **1** | [Fundamentos big data](./02_Big_data/01_Fundamentos_big_data/) | Las 5 Vs, arquitectura, tecnologías clave |
+| **2** | [Herramientas procesamiento](./02_Big_data/02_Herramientas_procesamiento/) | Hadoop, Spark, stream processing, alternativas |
+| **3** | [Análisis datos masivos](./02_Big_data/03_Analisis_datos_masivos/) | ETL, EDA, ML distribuido, visualización |
+| **4** | [Minería de datos](./02_Big_data/04_Mineria_datos/) | CRISP-DM, técnicas predictivas, descriptivas, deployment |
 
 Recursos por bloque:
 - 📊 **Mapa_Conceptual.md**: Ecosistema de tecnologías
 - 📖 **Teoria.md**: Conceptos y arquitecturas
 - 📝 **Tarea.md**: Proyectos prácticos
 
-**Información Adicional**: [Recursos complementarios](./03_Big_Data/Informacion_Adicional.md)
+**Información adicional**: [Recursos complementarios](./02_Big_data/Informacion_Adicional.md)
 
 ---
 
-## 📋 Estructura del Contenido
+## 📋 Estructura del contenido
 
-### Por Cada Bloque de Aprendizaje:
+### Por cada bloque de aprendizaje:
 
 ```
-Bloque_Nombre/
+Bloque_nombre/
 ├── Mapa_Conceptual.md      # Diagrama visual de conceptos
 ├── Teoria.md               # Contenido teórico completo
 └── Tarea.md                # Ejercicio práctico con criterios
 ```
 
-### Por Cada Módulo:
+### Por cada módulo:
 
 ```
 Modulo/
-├── 01_Bloque_Tematico/     # Contenidos + Actividades
-├── 02_Bloque_Tematico/     
-├── 03_Bloque_Tematico/
+├── 00_Bloque_tematico/     # Contenidos + Actividades
+├── 01_Bloque_tematico/     
+├── 02_Bloque_tematico/
+├── ...
 └── Informacion_Adicional.md # Recursos y referencias
 ```
 
 ---
 
-## 🎓 Estructura de Aprendizaje
+## 🎓 Estructura de aprendizaje
 
-### Recomendación de Estudio:
+### Recomendación de estudio:
 
-1. **Lectura de Teoría** 📖
+1. **Lectura de teoría** 📖
    - Lee el archivo `Teoria.md` de cada bloque
    - Consulta el `Mapa_Conceptual.md` para visualizar relaciones
    - Complementa con `Informacion_Adicional.md`
 
-2. **Realización de Tarea** 💻
+2. **Realización de tarea** 💻
    - Implementa los ejercicios del archivo `Tarea.md`
    - Sigue los criterios de evaluación establecidos
    - Documenta resultados y aprendizajes
@@ -126,30 +108,24 @@ Modulo/
 
 ---
 
-## 🛠️ Tecnologías Clave por Módulo
+## 🛠️ Tecnologías clave por módulo
 
-### Inteligencia Artificial
-- Python 3.x
-- TensorFlow / Keras
-- PyTorch
-- Scikit-learn
-- CLIPS / Jess (Sistemas Expertos)
-
-### Machine Learning - Base
+### Machine learning - Base
 - Python 3.x
 - Scikit-learn
 - Pandas / NumPy
 - Matplotlib / Seaborn
 - Jupyter Notebook
+- CLIPS / Jess (sistemas expertos)
 
-### Machine Learning - Avanzado
-- **Deep Learning**: TensorFlow/Keras, PyTorch
+### Machine learning - Avanzado
+- **Deep learning**: TensorFlow/Keras, PyTorch
 - **Transformers**: Hugging Face, transformers library
 - **LLM**: OpenAI API, Anthropic, LLaMA, Mistral
-- **Reinforcement Learning**: Gym, Stable-Baselines3, Ray RLLib
+- **Reinforcement learning**: Gym, Stable-Baselines3, Ray RLLib
 - **Visualización**: Tensorboard, Weights & Biases
 
-### Big Data
+### Big data
 - Apache Spark / PySpark
 - Apache Hadoop
 - Apache Kafka
@@ -162,17 +138,17 @@ Modulo/
 
 ## 📊 Mapas de Navegación Rápida
 
-### Ruta Principiante (Recomendado)
-1. Conceptos Básicos de IA → ML Supervisado → Fundamentos Big Data
-2. Continuación: Sistemas Expertos → ML No Supervisado → Herramientas Procesamiento
-3. Intermedio: Redes Neuronales → Validación/Evaluación → Análisis Masivo
-4. Avanzado: Deep Learning → Transformers → Minería de Datos
-5. Especialización: LLM → Reinforcement Learning
+### Ruta principiante (recomendado)
+1. Conceptos básicos de IA → ML supervisado → Fundamentos big data
+2. Continuación: ML no supervisado → Herramientas procesamiento
+3. Intermedio: Validación/evaluación → Análisis masivo
+4. Avanzado: Deep learning → Transformers → Minería de datos
+5. Especialización: LLM → Reinforcement learning → Sistemas expertos
 
-### Ruta por Interés Profesional
-- **Data Scientist**: ML Supervisado → ML No Supervisado → Validación → Deep Learning → Minería de Datos
-- **ML Engineer**: Deep Learning → Transformers → LLM → Reinforcement Learning → Validación
-- **Data Engineer**: Big Data Fundamentos → Herramientas Spark → Análisis Masivo → Minería de Datos
+### Ruta por interés profesional
+- **Data scientist**: Conceptos básicos IA → ML supervisado → ML no supervisado → Validación → Deep learning → Minería de datos
+- **ML engineer**: Deep learning → Transformers → LLM → Reinforcement learning → Validación → Sistemas expertos
+- **Data engineer**: Big data fundamentos → Herramientas Spark → Análisis masivo → Minería de datos
 
 ---
 
@@ -185,31 +161,28 @@ Modulo/
 
 ---
 
-## 🔗 Enlaces Directos a Contenido
+## 🔗 Enlaces directos a contenido
 
-### Inteligencia Artificial
-- [Mapa IA Bloque 1](./01_Inteligencia_Artificial/01_Conceptos_Basicos_IA/Mapa_Conceptual.md)
-- [Teoría IA Bloque 2](./01_Inteligencia_Artificial/02_Sistemas_Expertos/Teoria.md)
-- [Tarea IA Bloque 3](./01_Inteligencia_Artificial/03_Redes_Neuronales/Tarea.md)
+### Machine learning
+- [Conceptos básicos IA - Bloque 0](./01_Sistemas_aprendizaje_automatico/00_Conceptos_basicos_ia/Teoria.md)
+- [ML supervisado - Bloque 1](./01_Sistemas_aprendizaje_automatico/01_Ml_supervisado/Mapa_Conceptual.md)
+- [ML no supervisado - Bloque 2](./01_Sistemas_aprendizaje_automatico/02_Ml_no_supervisado/Teoria.md)
+- [Validación - Bloque 3](./01_Sistemas_aprendizaje_automatico/03_Validacion_evaluacion/Tarea.md)
+- [Deep learning - Bloque 4](./01_Sistemas_aprendizaje_automatico/04_Deep_learning/Teoria.md)
+- [Transformers - Bloque 5](./01_Sistemas_aprendizaje_automatico/05_Transformers/Teoria.md)
+- [LLM - Bloque 6](./01_Sistemas_aprendizaje_automatico/06_Llm/Teoria.md)
+- [Reinforcement learning - Bloque 7](./01_Sistemas_aprendizaje_automatico/07_Reinforcement_learning/Teoria.md)
+- [Sistemas expertos - Bloque 8](./01_Sistemas_aprendizaje_automatico/08_Sistemas_expertos/Teoria.md)
 
-### Machine Learning
-- [Mapa ML Bloque 1](./02_Sistemas_Aprendizaje_Automatico/01_ML_Supervisado/Mapa_Conceptual.md)
-- [Teoría ML Bloque 2](./02_Sistemas_Aprendizaje_Automatico/02_ML_No_Supervisado/Teoria.md)
-- [Tarea ML Bloque 3](./02_Sistemas_Aprendizaje_Automatico/03_Validacion_Evaluacion/Tarea.md)
-- [Deep Learning Bloque 4](./02_Sistemas_Aprendizaje_Automatico/04_Deep_Learning/Teoria.md)
-- [Transformers Bloque 5](./02_Sistemas_Aprendizaje_Automatico/05_Transformers/Teoria.md)
-- [LLM Bloque 6](./02_Sistemas_Aprendizaje_Automatico/06_LLM/Teoria.md)
-- [Reinforcement Learning Bloque 7](./02_Sistemas_Aprendizaje_Automatico/07_Reinforcement_Learning/Teoria.md)
-
-### Big Data
-- [Mapa BD Bloque 1](./03_Big_Data/01_Fundamentos_Big_Data/Mapa_Conceptual.md)
-- [Teoría BD Bloque 2](./03_Big_Data/02_Herramientas_Procesamiento/Teoria.md)
-- [Tarea BD Bloque 3](./03_Big_Data/03_Analisis_Datos_Masivos/Tarea.md)
-- [Minería de Datos Bloque 4](./03_Big_Data/04_Mineria_Datos/Teoria.md)
+### Big data
+- [Fundamentos - Bloque 1](./02_Big_data/01_Fundamentos_big_data/Mapa_Conceptual.md)
+- [Herramientas - Bloque 2](./02_Big_data/02_Herramientas_procesamiento/Teoria.md)
+- [Análisis masivo - Bloque 3](./02_Big_data/03_Analisis_datos_masivos/Tarea.md)
+- [Minería datos - Bloque 4](./02_Big_data/04_Mineria_datos/Teoria.md)
 
 ---
 
-## ✅ Criterios de Calidad y Accesibilidad
+## ✅ Criterios de calidad y accesibilidad
 
 ✓ Contenido estructurado y modular  
 ✓ Múltiples formatos de presentación  
@@ -221,7 +194,7 @@ Modulo/
 
 ---
 
-## 📞 Información de Contacto y Soporte
+## 📞 Información de contacto y soporte
 
 Para consultas, sugerencias o reportar errores, contacta con el equipo de desarrollo.
 
@@ -233,5 +206,5 @@ Este material educativo está disponible para uso académico y profesional sigui
 
 ---
 
-**Última actualización**: Noviembre 2025  
-**Versión**: 2.0 - Estructura Completa
+**Última actualización**: Diciembre 2025  
+**Versión**: 3.0 - Estructura optimizada

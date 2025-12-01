@@ -1,5 +1,5 @@
-# Mapa Conceptual: Sistemas Expertos
-## Inteligencia Artificial - Bloque 2
+# Mapa conceptual: Sistemas expertos
+## Sistemas de aprendizaje automático - Bloque 8
 
 ### Definición
 Sistema informático que emula el conocimiento y experiencia de un experto humano en un dominio específico.

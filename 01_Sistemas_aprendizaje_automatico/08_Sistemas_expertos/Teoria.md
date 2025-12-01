@@ -1,5 +1,5 @@
-# Contenido Teórico: Sistemas Expertos
-## Inteligencia Artificial - Bloque 2
+# Contenido teórico: Sistemas expertos
+## Sistemas de aprendizaje automático - Bloque 8
 
 ## 1. Introducción a los Sistemas Expertos
 

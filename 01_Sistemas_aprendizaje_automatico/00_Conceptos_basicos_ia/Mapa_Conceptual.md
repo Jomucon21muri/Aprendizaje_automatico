@@ -1,5 +1,5 @@
-# Mapa Conceptual: Conceptos Básicos de IA
-## Inteligencia Artificial - Bloque 1
+# Mapa conceptual: Conceptos básicos de IA
+## Sistemas de aprendizaje automático - Bloque 0
 
 ### Conceptos Principales
 - Definición de Inteligencia Artificial

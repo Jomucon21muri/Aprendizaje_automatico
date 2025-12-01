@@ -1,5 +1,5 @@
-# Tarea: Sistemas Expertos
-## Inteligencia Artificial - Bloque 2
+# Tarea: Sistemas expertos
+## Sistemas de aprendizaje automático - Bloque 8
 
 ### Objetivo
 Diseñar y prototipar un sistema experto simple en un dominio específico.

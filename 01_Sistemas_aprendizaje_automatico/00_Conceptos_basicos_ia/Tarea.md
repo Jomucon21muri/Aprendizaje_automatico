@@ -1,5 +1,5 @@
-# Tarea: Conceptos Básicos de IA
-## Inteligencia Artificial - Bloque 1
+# Tarea: Conceptos básicos de IA
+## Sistemas de aprendizaje automático - Bloque 0
 
 ### Objetivo
 Comprender los conceptos fundamentales de la Inteligencia Artificial y su evolución histórica.
