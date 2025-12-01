@@ -1,21 +1,21 @@
-# Contenido Teórico: Deep Learning
-## Sistemas de Aprendizaje Automático - Bloque 4
+# Contenido teórico: deep learning
+## Sistemas de aprendizaje automático - Bloque 4
 
-## 1. Fundamentos de Deep Learning
+## 1. Fundamentos de deep learning
 
-### 1.1 Diferencia con Shallow Learning
+### 1.1 Diferencia con shallow learning
 - Shallow: 1-2 capas ocultas
 - Deep: 3+ capas, mayor representatividad
 - Feature learning automático vs manual
 
-### 1.2 Representación Jerárquica
+### 1.2 Representación jerárquica
 - Capas inferiores: características simples (bordes, texturas)
 - Capas intermedias: características complejas
 - Capas superiores: conceptos abstractos
 
-## 2. Redes Convolucionales (CNN)
+## 2. Redes convolucionales (CNN)
 
-### 2.1 Operación Convolucional
+### 2.1 Operación convolucional
 - Filtros/kernels que se deslizan sobre entrada
 - Extrae características locales
 - Reducción de parámetros vs redes fully-connected
@@ -28,12 +28,12 @@ Entrada → Conv → ReLU → Pool → ... → FC → Output
 - Pooling: Reducción de dimensionalidad
 - FC: Clasificación final
 
-### 2.3 Arquitecturas Clásicas
-- **LeNet-5**: Primeras CNNs (dígitos)
+### 2.3 Arquitecturas clásicas
+- **LeNet-5**: primeras CNNs (dígitos)
 - **AlexNet**: ImageNet 2012 (breakthrough)
-- **VGGNet**: Arquitectura profunda simple
-- **ResNet**: Conexiones residuales (152 capas)
-- **Inception**: Multi-escala de características
+- **VGGNet**: arquitectura profunda simple
+- **ResNet**: conexiones residuales (152 capas)
+- **Inception**: multi-escala de características
 
 ### 2.4 Aplicaciones
 - Clasificación de imágenes
@@ -41,9 +41,9 @@ Entrada → Conv → ReLU → Pool → ... → FC → Output
 - Segmentación semántica
 - Reconocimiento facial
 
-## 3. Redes Recurrentes (RNN)
+## 3. Redes recurrentes (RNN)
 
-### 3.1 RNN Básico
+### 3.1 RNN básico
 - Conexiones recurrentes (retroalimentación)
 - Memoria de estados pasados
 - Vanishing/Exploding gradient problem
@@ -82,7 +82,7 @@ Entrada → Conv → ReLU → Pool → ... → FC → Output
 - Detección de anomalías
 - Generación de datos nuevos
 
-## 5. Redes Generativas Adversariales (GANs)
+## 5. Redes generativas adversariales (GANs)
 
 ### 5.1 Arquitectura
 - **Generator**: Crea datos sintéticos
@@ -101,7 +101,7 @@ Entrada → Conv → ReLU → Pool → ... → FC → Output
 - Transferencia de estilo
 - Generación de rostros/escenas
 
-## 6. Técnicas de Optimización
+## 6. Técnicas de optimización
 
 ### 6.1 Transfer Learning
 - Usar modelos preentrenados (ImageNet)
@@ -113,8 +113,8 @@ Entrada → Conv → ReLU → Pool → ... → FC → Output
 - Mixup, Cutmix
 - Aumenta tamaño efectivo dataset
 
-### 6.3 Regularización Avanzada
-- Batch Normalization: Normaliza activaciones
+### 6.3 Regularización avanzada
+- Batch Normalization: normaliza activaciones
 - Dropout: Desactiva neuronas aleatoriamente
 - Layer Normalization, Group Normalization
 - Weight decay (L2 regularization)

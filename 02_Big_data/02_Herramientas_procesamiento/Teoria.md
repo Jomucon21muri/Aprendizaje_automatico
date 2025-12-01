@@ -1,7 +1,7 @@
-# Contenido Teórico: Herramientas de Procesamiento
+# Contenido teórico: herramientas de procesamiento
 ## Big Data - Bloque 2
 
-## 1. Procesamiento por Lotes (Batch Processing)
+## 1. Procesamiento por lotes (Batch Processing)
 
 ### 1.1 MapReduce
 - Paradigma divide y conquista
@@ -15,7 +15,7 @@
 - **MapReduce**: Engine de procesamiento
 - **YARN**: Gestor de recursos
 
-## 2. Procesamiento de Flujo (Stream Processing)
+## 2. Procesamiento de flujo (Stream Processing)
 
 ### 2.1 Apache Kafka
 - Message broker distribuido
@@ -34,7 +34,7 @@
 - Compatible con SQL
 - Micro-batching internamente
 
-## 3. Apache Spark - Análisis Profundo
+## 3. Apache Spark - análisis profundo
 
 ### 3.1 Componentes
 - **Spark Core**: Funcionalidad básica RDD
@@ -55,12 +55,12 @@
 - SQL queries nativas
 - Mejor rendimiento que RDD
 
-### 3.4 Operaciones Comunes
+### 3.4 Operaciones comunes
 - Transformaciones: map, filter, groupBy, join
 - Acciones: collect, show, write
 - Optimización: caching, partitioning
 
-## 4. Herramientas Alternativas
+## 4. Herramientas alternativas
 
 ### 4.1 Dask
 - Librería Python
@@ -80,7 +80,7 @@
 - API tipo pandas
 - Ideal para ETL
 
-## 5. Arquitecturas Híbridas
+## 5. Arquitecturas híbridas
 
 ### 5.1 Arquitectura Lambda
 - Capa batch: precisión garantizada

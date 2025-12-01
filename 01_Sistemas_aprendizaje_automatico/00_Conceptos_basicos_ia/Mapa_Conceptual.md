@@ -1,19 +1,19 @@
-# Mapa conceptual: Conceptos básicos de IA
+# Mapa conceptual: conceptos básicos de IA
 ## Sistemas de aprendizaje automático - Bloque 0
 
-### Conceptos Principales
-- Definición de Inteligencia Artificial
+### Conceptos principales
+- Definición de inteligencia artificial
 - Historia y evolución de la IA
 - Campos de aplicación
-- Diferencia entre IA Débil y Fuerte
+- Diferencia entre IA débil y fuerte
 
-### Componentes Clave
+### Componentes clave
 - Representación del conocimiento
 - Búsqueda y optimización
 - Lógica y razonamiento
 - Algoritmos fundamentales
 
-### Relaciones Conceptuales
+### Relaciones conceptuales
 ```
     Inteligencia Artificial
          |

@@ -1,5 +1,5 @@
-# Mapa Conceptual: Reinforcement Learning
-## Sistemas de Aprendizaje Automático - Bloque 7
+# Mapa conceptual: reinforcement learning
+## Sistemas de aprendizaje automático - Bloque 7
 
 ### Marco MDP (Markov Decision Process)
 
@@ -17,16 +17,16 @@
            └─ Iteración
 ```
 
-### Elementos Clave
-- **Agente**: Toma decisiones
-- **Ambiente**: Sistema dinámico
-- **Estado**: Configuración actual
-- **Acción**: Movimiento disponible
-- **Recompensa**: Retroalimentación inmediata
-- **Política**: Estrategia de decisión
-- **Valor**: Utilidad esperada
+### Elementos clave
+- **Agente**: toma decisiones
+- **Ambiente**: sistema dinámico
+- **Estado**: configuración actual
+- **Acción**: movimiento disponible
+- **Recompensa**: retroalimentación inmediata
+- **Política**: estrategia de decisión
+- **Valor**: utilidad esperada
 
-### Categorías de Algoritmos
+### Categorías de algoritmos
 
 ```
 Reinforcement Learning
@@ -44,7 +44,7 @@ Reinforcement Learning
     │   ├── Dinámica aprendida
     │   ├── Planning
     │   └── Imagination-augmented
-    └── Métodos Híbridos
+    └── Métodos híbridos
         ├── A3C
         ├── SAC
         └── TD3

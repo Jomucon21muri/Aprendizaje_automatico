@@ -1,4 +1,4 @@
-# Contenido Teórico: Fundamentos de Big Data
+# Contenido teórico: fundamentos de big data
 ## Big Data - Bloque 1
 
 ## 1. Introducción a Big Data
@@ -12,8 +12,8 @@ Conjunto de datos cuyo tamaño, velocidad y complejidad requieren tecnologías y
 - **2010s**: Cloud computing y Spark emergen
 - **2020+**: Edge computing e IA integrada
 
-### 1.3 Diferencia con Procesamiento Tradicional
-- Volumen: De GB a TB/PB
+### 1.3 Diferencia con procesamiento tradicional
+- Volumen: de GB a TB/PB
 - Velocidad: Procesamiento casi real-time
 - Complejidad: Múltiples formatos y fuentes
 - Infraestructura: Distribuida, escalable
@@ -47,19 +47,19 @@ Conjunto de datos cuyo tamaño, velocidad y complejidad requieren tecnologías y
 
 ## 3. Arquitectura de Big Data
 
-### 3.1 Capas Tecnológicas
+### 3.1 Capas tecnológicas
 - **Recolección**: IoT, APIs, logs
 - **Almacenamiento**: HDFS, Data Lakes
 - **Procesamiento**: MapReduce, Spark
 - **Análisis**: SQL, ML frameworks
 - **Visualización**: Dashboards, reportes
 
-### 3.2 Modelos de Arquitectura
+### 3.2 Modelos de arquitectura
 - Lambda (batch + real-time)
 - Kappa (stream processing)
 - Modern Data Stack (cloud-native)
 
-## 4. Tecnologías Principales
+## 4. Tecnologías principales
 
 ### 4.1 Hadoop
 - Framework para procesamiento distribuido
@@ -72,7 +72,7 @@ Conjunto de datos cuyo tamaño, velocidad y complejidad requieren tecnologías y
 - Soporte batch y streaming
 - APIs en Scala, Python, Java, R
 
-### 4.3 Bases de Datos NoSQL
+### 4.3 Bases de datos NoSQL
 - MongoDB: documentos flexibles
 - Cassandra: alta disponibilidad
 - Redis: caché en memoria
@@ -82,7 +82,7 @@ Conjunto de datos cuyo tamaño, velocidad y complejidad requieren tecnologías y
 - Azure: DataLake, Synapse
 - Google Cloud: BigQuery, Dataflow
 
-## 5. Casos de Uso
+## 5. Casos de uso
 - Análisis de redes sociales
 - Recomendaciones personalizadas
 - Detección de fraude

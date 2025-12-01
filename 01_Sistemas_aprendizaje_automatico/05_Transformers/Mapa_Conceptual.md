@@ -1,10 +1,10 @@
-# Mapa Conceptual: Transformers
-## Sistemas de Aprendizaje Automático - Bloque 5
+# Mapa conceptual: transformers
+## Sistemas de aprendizaje automático - Bloque 5
 
 ### Arquitectura Transformer
 
 ```
-Entrada de Texto
+Entrada de texto
       ↓
 Embedding + Positional Encoding
       ↓
@@ -22,18 +22,18 @@ Stack de N Bloques Encoder
 │   Multi-Head Attention  │ (Decoder)
 └─────────────────────────┘
       ↓
-Predicción de Siguiente Token
+Predicción de siguiente token
 ```
 
-### Componentes Clave
-- **Self-Attention**: Relaciones entre tokens
-- **Multi-Head Attention**: Múltiples representaciones
-- **Positional Encoding**: Información de posición
-- **Feed-Forward**: Transformación no-lineal
-- **Layer Normalization**: Normalización entre capas
-- **Residual Connections**: Facilita gradientes profundos
+### Componentes clave
+- **Self-Attention**: relaciones entre tokens
+- **Multi-Head Attention**: múltiples representaciones
+- **Positional Encoding**: información de posición
+- **Feed-Forward**: transformación no-lineal
+- **Layer Normalization**: normalización entre capas
+- **Residual Connections**: facilita gradientes profundos
 
-### Variantes de Transformers
+### Variantes de transformers
 - **BERT**: Bidireccional (encoding)
 - **GPT**: Autoregresivo (decoding)
 - **T5**: Encoder-Decoder
@@ -41,7 +41,7 @@ Predicción de Siguiente Token
 - **DistilBERT**: Comprimido
 - **RoBERTa, ALBERT, ELECTRA**: Mejoras BERT
 
-### Casos de Uso
+### Casos de uso
 - Traducción automática
 - Análisis de sentimiento
 - Respuesta a preguntas

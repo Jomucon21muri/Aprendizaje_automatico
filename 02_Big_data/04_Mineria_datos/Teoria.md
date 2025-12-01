@@ -1,17 +1,17 @@
-# Contenido Teórico: Minería de Datos
+# Contenido teórico: minería de datos
 ## Big Data - Bloque 4
 
-## 1. Introducción a Minería de Datos
+## 1. Introducción a minería de datos
 
 ### 1.1 Definición
 Proceso de descubrimiento de patrones e información significativa en grandes conjuntos de datos usando técnicas estadísticas, matemáticas e informáticas.
 
-### 1.2 Diferencia con BI y Análisis
-- **BI (Business Intelligence)**: Datos históricos, reportes
-- **Analytics**: Interpretación exploratorio y causal
-- **Data Mining**: Descubrimiento automático de patrones
+### 1.2 Diferencia con BI y análisis
+- **BI (Business Intelligence)**: datos históricos, reportes
+- **Analytics**: interpretación exploratorio y causal
+- **Data Mining**: descubrimiento automático de patrones
 
-### 1.3 Aplicaciones Empresariales
+### 1.3 Aplicaciones empresariales
 - Segmentación de clientes
 - Predicción de churn
 - Recomendaciones de productos
@@ -33,7 +33,7 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Identificar problemas de calidad
 
 ### 2.3 Fase 3: Data Preparation
-- Limpieza: Valores faltantes, duplicados, inconsistencias
+- Limpieza: valores faltantes, duplicados, inconsistencias
 - Integración: Consolidar múltiples fuentes
 - Transformación: Normalización, encoding
 - Feature engineering: Crear características relevantes
@@ -60,7 +60,7 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Mantener documentación
 - Obtener feedback
 
-## 3. Tareas de Minería Predictiva
+## 3. Tareas de minería predictiva
 
 ### 3.1 Clasificación
 - Predicción de categoría (target discreto)
@@ -80,7 +80,7 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Métricas: MAE, MAPE, RMSE
 - Casos: Ventas, weather, precios de bolsa
 
-## 4. Tareas de Minería Descriptiva
+## 4. Tareas de minería descriptiva
 
 ### 4.1 Clustering
 - Agrupar datos similares (no supervisado)
@@ -88,29 +88,29 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Métricas: Silhouette, Davies-Bouldin, Inertia
 - Casos: Segmentación de clientes, patrones biológicos
 
-### 4.2 Análisis de Asociación
+### 4.2 Análisis de asociación
 - Reglas de co-ocurrencia
 - Algoritmo: Apriori, Eclat
 - Métricas: Support, Confidence, Lift
 - Casos: Market basket (qué productos se compran juntos)
 
-### 4.3 Detección de Anomalías
+### 4.3 Detección de anomalías
 - Identificar datos anómalos
 - Algoritmos: Isolation Forest, LOF, One-Class SVM
 - Métricas: Precision, Recall, F1 (si hay etiquetas)
 - Casos: Detección de fraude, intrusiones, defectos
 
-## 5. Data Quality y Preparación
+## 5. Data Quality y preparación
 
-### 5.1 Problemas Comunes
+### 5.1 Problemas comunes
 - Valores faltantes (missingness patterns)
 - Outliers y ruido
 - Inconsistencias y duplicados
 - Valores codificados incorrectamente
 - Desbalance de clases
 
-### 5.2 Técnicas de Limpieza
-- Imputación: Media, mediana, KNN, forward fill
+### 5.2 Técnicas de limpieza
+- Imputación: media, mediana, KNN, forward fill
 - Detección de outliers: Z-score, IQR, Mahalanobis
 - Normalización: Min-Max, Z-score, Robust Scaling
 - Encodings: One-hot, Label, Target encoding
@@ -121,15 +121,15 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Reducción: PCA, t-SNE, Autoencoders
 - Características temporales: lag, rolling stats
 
-## 6. Interpretabilidad y Explicabilidad
+## 6. Interpretabilidad y explicabilidad
 
-### 6.1 Modelos Interpretables
+### 6.1 Modelos interpretables
 - Árboles de decisión: Visualizables
 - Regresión lineal: Coeficientes
 - Reglas de asociación: Explícitas
 
-### 6.2 Explicabilidad Post-hoc
-- **SHAP**: Explicaciones de adiciones de características
+### 6.2 Explicabilidad post-hoc
+- **SHAP**: explicaciones de adiciones de características
 - **LIME**: Aproximación local interpretable
 - **Permutation Importance**: Importancia de características
 - **PDP/ICE Plots**: Relación característica-predicción
@@ -140,22 +140,22 @@ Proceso de descubrimiento de patrones e información significativa en grandes co
 - Técnicas de mitigación
 - Regulación: GDPR right to explanation
 
-## 7. Monitoreo y Mantenimiento
+## 7. Monitoreo y mantenimiento
 
-### 7.1 Drift de Datos
+### 7.1 Drift de datos
 - Data Drift: Cambio en distribución X
 - Label Drift: Cambio en distribución Y
 - Concept Drift: Cambio en relación X→Y
 - Detección: Statistical tests, visualización
 
-### 7.2 Degradación del Modelo
+### 7.2 Degradación del modelo
 - Monitoreo de performance en producción
 - Comparación con baseline
 - Alertas para reentrenamiento
 - Versioning de modelos
 
 ### 7.3 Reentrenamiento
-- Planificación: Cadencia óptima
+- Planificación: cadencia óptima
 - Validación: Garantizar mejora
 - Rollback: Plan de contingencia
 - A/B testing: Validar en producción

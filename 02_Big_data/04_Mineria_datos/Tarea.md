@@ -1,4 +1,4 @@
-# Tarea: Minería de Datos
+# Tarea: minería de datos
 ## Big Data - Bloque 4
 
 ### Objetivo
@@ -12,9 +12,9 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
 - Identificar éxito/fracaso
 - Disponibilidad de datos
 - Timeline y recursos
-- Documento: Propuesta de proyecto
+- Documento: propuesta de proyecto
 
-#### Actividad 2: Data Understanding y Exploración
+#### Actividad 2: Data Understanding y exploración
 - Recopila dataset relevante (~100K+ filas)
 - EDA exhaustiva:
   - Estadísticas descriptivas
@@ -23,7 +23,7 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
   - Valores faltantes
   - Outliers
 - Visualizaciones comprensivas
-- Documento: Reporte EDA con hallazgos
+- Documento: reporte EDA con hallazgos
 
 #### Actividad 3: Data Preparation y Feature Engineering
 - Limpieza: Manejo valores faltantes, outliers, inconsistencias
@@ -33,7 +33,7 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
 - Justificación de cada transformación
 - Documento: Data preparation report
 
-#### Actividad 4: Modelado
+#### Actividad 4: modelado
 - Selecciona 2-3 tareas apropiadas:
   - Clasificación + Regresión
   - Clustering + Clasificación
@@ -43,7 +43,7 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
 - Validación cruzada rigurosa
 - Comparación de modelos
 
-#### Actividad 5: Evaluación y Análisis
+#### Actividad 5: evaluación y análisis
 - Métricas comprensivas (negocio + técnicas)
 - ROI estimado del modelo
 - Análisis de errores
@@ -52,7 +52,7 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
 - Documentar resultados
 - Crear reporte ejecutivo
 
-#### Actividad 6: Propuesta de Deployment
+#### Actividad 6: propuesta de Deployment
 - Arquitectura de producción
 - API o batch process
 - Monitoreo y alertas
@@ -61,7 +61,7 @@ Ejecutar proyecto completo de minería de datos siguiendo metodología CRISP-DM.
 - Riesgos y mitigación
 - Timeline de implementación
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Business Understanding: 10%
 - Data Understanding: 15%
 - Data Preparation: 20%

@@ -1,12 +1,12 @@
-# Tarea: Deep Learning
-## Sistemas de Aprendizaje Automático - Bloque 4
+# Tarea: deep learning
+## Sistemas de aprendizaje automático - Bloque 4
 
 ### Objetivo
 Implementar y comparar arquitecturas de Deep Learning en problemas reales de visión computacional.
 
 ### Actividades
 
-#### Actividad 1: CNN para Clasificación de Imágenes
+#### Actividad 1: CNN para clasificación de imágenes
 - Selecciona dataset (CIFAR-10, MNIST, STL-10)
 - Diseña arquitectura CNN personalizada (3-5 capas)
 - Implementa con TensorFlow/Keras o PyTorch
@@ -24,25 +24,25 @@ Implementar y comparar arquitecturas de Deep Learning en problemas reales de vis
 - Analiza impacto en generalización
 - Crea visualizaciones de ejemplos aumentados
 
-#### Actividad 4: Detección de Anomalías con Autoencoder
+#### Actividad 4: detección de anomalías con Autoencoder
 - Entrena Autoencoder en datos normales
 - Usa error de reconstrucción como métrica
 - Detecta ejemplos anómalos
 - Evalúa precisión y recall
 
-#### Actividad 5: Generación de Imágenes (GAN Simple)
+#### Actividad 5: generación de imágenes (GAN simple)
 - Implementa GAN simple o DCGAN
 - Entrena en dataset (MNIST, CelebA)
 - Genera imágenes nuevas
 - Visualiza progresión del entrenamiento
 
-#### Actividad 6: Análisis y Documentación
+#### Actividad 6: análisis y documentación
 - Compara arquitecturas: velocidad, precisión, parámetros
 - Crea tabla de resultados
 - Analiza overfitting/underfitting
 - Propone mejoras futuras
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Implementación CNN: 20%
 - Transfer Learning: 15%
 - Data Augmentation: 15%

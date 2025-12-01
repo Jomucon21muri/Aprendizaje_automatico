@@ -1,16 +1,16 @@
-# Mapa Conceptual: Machine Learning No Supervisado
-## Sistemas de Aprendizaje Automático - Bloque 2
+# Mapa conceptual: machine learning no supervisado
+## Sistemas de aprendizaje automático - Bloque 2
 
-### Aprendizaje No Supervisado
+### Aprendizaje no supervisado
 Datos sin etiquetas. El algoritmo descubre patrones
 
-### Tareas Principales
-- **Clustering**: Agrupación de datos similares
-- **Reducción de Dimensionalidad**: Reducir características
-- **Detección de Anomalías**: Identificar outliers
-- **Reglas de Asociación**: Patrones de co-ocurrencia
+### Tareas principales
+- **Clustering**: agrupación de datos similares
+- **Reducción de dimensionalidad**: reducir características
+- **Detección de anomalías**: identificar outliers
+- **Reglas de asociación**: patrones de co-ocurrencia
 
-### Algoritmos de Clustering
+### Algoritmos de clustering
 ```
 No Supervisado
     ├── Clustering
@@ -27,12 +27,12 @@ No Supervisado
         └── Local Outlier Factor
 ```
 
-### Desafíos Principales
+### Desafíos principales
 - Determinación del número óptimo de clusters
 - Evaluación sin etiquetas de referencia
 - Interpretabilidad de resultados
 
-### Métricas Intrínsecas
+### Métricas intrínsecas
 - Índice de Silhueta
 - Davies-Bouldin
 - Índice Calinski-Harabasz

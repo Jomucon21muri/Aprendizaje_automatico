@@ -26,7 +26,7 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 | **1** | [ML supervisado](./01_Sistemas_aprendizaje_automatico/01_Ml_supervisado/) | Clasificación, regresión, algoritmos clásicos |
 | **2** | [ML no supervisado](./01_Sistemas_aprendizaje_automatico/02_Ml_no_supervisado/) | Clustering, reducción de dimensionalidad, anomalías |
 | **3** | [Validación y evaluación](./01_Sistemas_aprendizaje_automatico/03_Validacion_evaluacion/) | Métricas, validación cruzada, ajuste de hiperparámetros |
-| **4** | [Deep learning](./01_Sistemas_aprendizaje_automatico/04_Deep_learning/) | CNN, RNN, autoencoders, GANs, transfer learning |
+| **4** | [Deep learning](./01_Sistemas_aprendizaje_automatico/04_Deep_learning/) | CNN, RNN, autoencoders, GAN, transfer learning |
 | **5** | [Transformers](./01_Sistemas_aprendizaje_automatico/05_Transformers/) | Attention, BERT, GPT, ViT, arquitecturas modernas |
 | **6** | [Large language models (LLM)](./01_Sistemas_aprendizaje_automatico/06_Llm/) | GPT, Claude, prompting, RAG, fine-tuning |
 | **7** | [Reinforcement learning](./01_Sistemas_aprendizaje_automatico/07_Reinforcement_learning/) | Q-learning, policy gradient, actor-critic, DQN |
@@ -49,7 +49,7 @@ Recursos por bloque:
 
 | Bloque | Tema | Contenido |
 |--------|------|----------|
-| **1** | [Fundamentos big data](./02_Big_data/01_Fundamentos_big_data/) | Las 5 Vs, arquitectura, tecnologías clave |
+| **1** | [Fundamentos big data](./02_Big_data/01_Fundamentos_big_data/) | Las 5 V, arquitectura, tecnologías clave |
 | **2** | [Herramientas procesamiento](./02_Big_data/02_Herramientas_procesamiento/) | Hadoop, Spark, stream processing, alternativas |
 | **3** | [Análisis datos masivos](./02_Big_data/03_Analisis_datos_masivos/) | ETL, EDA, ML distribuido, visualización |
 | **4** | [Minería de datos](./02_Big_data/04_Mineria_datos/) | CRISP-DM, técnicas predictivas, descriptivas, deployment |
@@ -110,7 +110,7 @@ Modulo/
 
 ## 🛠️ Tecnologías clave por módulo
 
-### Machine learning - Base
+### Machine learning - base
 - Python 3.x
 - Scikit-learn
 - Pandas / NumPy
@@ -118,7 +118,7 @@ Modulo/
 - Jupyter Notebook
 - CLIPS / Jess (sistemas expertos)
 
-### Machine learning - Avanzado
+### Machine learning - avanzado
 - **Deep learning**: TensorFlow/Keras, PyTorch
 - **Transformers**: Hugging Face, transformers library
 - **LLM**: OpenAI API, Anthropic, LLaMA, Mistral
@@ -152,10 +152,10 @@ Modulo/
 
 ---
 
-## 📈 Requisitos Previos
+## 📈 Requisitos previos
 
 - Conocimientos básicos de programación (Python)
-- Matemática: Álgebra lineal, cálculo, probabilidad
+- Matemática: álgebra lineal, cálculo, probabilidad
 - Conceptos de estructuras de datos
 - Familiaridad con línea de comandos
 

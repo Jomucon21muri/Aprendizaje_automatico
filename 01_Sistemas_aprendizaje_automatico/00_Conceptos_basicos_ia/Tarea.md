@@ -1,21 +1,21 @@
-# Tarea: Conceptos básicos de IA
+# Tarea: conceptos básicos de IA
 ## Sistemas de aprendizaje automático - Bloque 0
 
 ### Objetivo
-Comprender los conceptos fundamentales de la Inteligencia Artificial y su evolución histórica.
+Comprender los conceptos fundamentales de la inteligencia artificial y su evolución histórica.
 
 ### Actividades
 
-#### Actividad 1: Investigación Histórica
+#### Actividad 1: investigación histórica
 Investiga y elabora un documento sobre tres hitos importantes en la historia de la IA, explicando su impacto en el desarrollo actual.
 
-#### Actividad 2: Clasificación de Aplicaciones
-Dado un conjunto de aplicaciones de IA, clasifícalas según sean IA Débil o IA Fuerte, justificando tu clasificación.
+#### Actividad 2: clasificación de aplicaciones
+Dado un conjunto de aplicaciones de IA, clasífícalas según sean IA débil o IA fuerte, justificando tu clasificación.
 
-#### Actividad 3: Análisis de Capacidades
-Describe las capacidades que debería tener un sistema de IA Fuerte hipotético y compáralo con sistemas IA Débil actuales.
+#### Actividad 3: análisis de capacidades
+Describe las capacidades que debería tener un sistema de IA fuerte hipotético y compáralo con sistemas IA débil actuales.
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Precisión en conceptos fundamentales: 40%
 - Investigación y análisis: 30%
 - Claridad en la exposición: 20%

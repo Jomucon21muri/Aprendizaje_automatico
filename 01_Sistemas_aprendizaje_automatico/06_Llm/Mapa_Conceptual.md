@@ -1,5 +1,5 @@
-# Mapa Conceptual: Large Language Models (LLM)
-## Sistemas de Aprendizaje Automático - Bloque 6
+# Mapa conceptual: Large Language Models (LLM)
+## Sistemas de aprendizaje automático - Bloque 6
 
 ### Evolución de LLMs
 
@@ -15,7 +15,7 @@
 2023+: GPT-4, Claude, LLaMA, Mistral
 ```
 
-### Arquitectura y Escala
+### Arquitectura y escala
 
 ```
 LLM = Transformer Decoder × 10^9+ parámetros
@@ -28,10 +28,10 @@ Componentes:
 └── Total Params: 1B-405B+
 ```
 
-### Métodos de Adaptación
-- **Fine-tuning**: Reentrenamiento de todos los pesos
-- **LoRA**: Adaptación de bajo rango
-- **Prompt Engineering**: Instrucciones específicas
+### Métodos de adaptación
+- **Fine-tuning**: reentrenamiento de todos los pesos
+- **LoRA**: adaptación de bajo rango
+- **Prompt Engineering**: instrucciones específicas
 - **Few-Shot Learning**: Ejemplos en contexto
 - **Chain-of-Thought**: Razonamiento paso-a-paso
 - **Retrieval-Augmented Generation (RAG)**: Con información externa
@@ -45,7 +45,7 @@ Componentes:
 - Generación creativa
 
 ### Consideraciones
-- Hallucinations: Información inventada
+- Hallucinations: información inventada
 - Sesgo: Datos de entrenamiento
 - Costo computacional
 - Privacidad y seguridad

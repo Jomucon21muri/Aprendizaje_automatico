@@ -4,20 +4,20 @@
 ### Definición
 Sistema informático que emula el conocimiento y experiencia de un experto humano en un dominio específico.
 
-### Componentes Principales
-- **Base de Conocimiento**: Conjunto de reglas y hechos
-- **Motor de Inferencia**: Aplica las reglas al problema
-- **Interfaz de Usuario**: Interacción con el usuario
-- **Módulo de Explicación**: Justifica las conclusiones
+### Componentes principales
+- **Base de conocimiento**: conjunto de reglas y hechos
+- **Motor de inferencia**: aplica las reglas al problema
+- **Interfaz de usuario**: interacción con el usuario
+- **Módulo de explicación**: justifica las conclusiones
 
-### Tipos de Sistemas Expertos
+### Tipos de sistemas expertos
 - Diagnóstico
 - Planificación
 - Configuración
 - Supervisión y control
 - Reparación y recuperación
 
-### Ciclo de Funcionamiento
+### Ciclo de funcionamiento
 ```
 Hechos → Motor de Inferencia → Base de Conocimiento
                      ↓

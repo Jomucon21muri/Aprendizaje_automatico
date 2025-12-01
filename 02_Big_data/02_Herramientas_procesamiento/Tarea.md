@@ -1,4 +1,4 @@
-# Tarea: Herramientas de Procesamiento
+# Tarea: herramientas de procesamiento
 ## Big Data - Bloque 2
 
 ### Objetivo
@@ -6,7 +6,7 @@ Adquirir experiencia práctica con herramientas de procesamiento Big Data.
 
 ### Actividades
 
-#### Actividad 1: Instalación y Configuración
+#### Actividad 1: instalación y configuración
 - Instala Apache Spark (local o cloud)
 - Configura entorno: Python, Jupyter
 - Verifica instalación y crea primera aplicación
@@ -25,19 +25,19 @@ Implementa con PySpark:
 - Window functions
 - Comparar rendimiento RDD vs DataFrame
 
-#### Actividad 4: Análisis de Dataset Real
+#### Actividad 4: análisis de dataset real
 Usando dataset público (Kaggle, etc.):
 - Limpieza de datos
 - Análisis exploratorio
 - Agregaciones por dimensiones
 - Resultados a parquet/csv
 
-#### Actividad 5: Comparación Herramientas
+#### Actividad 5: comparación herramientas
 - Implementa tarea simple con Spark y Dask
 - Compara: velocidad, sintaxis, documentación
 - Analiza cuándo usar cada una
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Instalación y configuración: 15%
 - Transformaciones PySpark: 25%
 - SQL queries: 20%

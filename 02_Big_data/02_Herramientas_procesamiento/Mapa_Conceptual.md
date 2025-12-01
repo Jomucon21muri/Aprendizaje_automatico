@@ -1,7 +1,7 @@
-# Mapa Conceptual: Herramientas de Procesamiento
+# Mapa conceptual: herramientas de procesamiento
 ## Big Data - Bloque 2
 
-### Tipos de Procesamiento
+### Tipos de procesamiento
 
 ```
 Procesamiento de Datos
@@ -25,12 +25,12 @@ Procesamiento de Datos
 - MLlib (Machine Learning)
 - GraphX (Graphs)
 
-### Alternativas Modernas
+### Alternativas modernas
 - Dask (paralelización Python)
 - Ray (computación distribuida)
 - Polars (procesamiento rápido)
 
-### Características Comparativas
+### Características comparativas
 - Latencia: Batch vs Real-time
 - Throughput: GB/s
 - Tolerancia a fallos

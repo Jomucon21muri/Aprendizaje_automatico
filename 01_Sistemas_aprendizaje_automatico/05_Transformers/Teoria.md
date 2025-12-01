@@ -1,5 +1,5 @@
-# Contenido Teórico: Transformers
-## Sistemas de Aprendizaje Automatico - Bloque 5
+# Contenido teórico: transformers
+## Sistemas de aprendizaje automático - Bloque 5
 
 ## 1. Limitaciones de RNN/LSTM
 
@@ -14,9 +14,9 @@
 - Completamente paralelizable
 - Escala a secuencias muy largas
 
-## 2. Mecanismo de Attention
+## 2. Mecanismo de attention
 
-### 2.1 Self-Attention Escalado
+### 2.1 Self-Attention escalado
 ```
 Attention(Q, K, V) = softmax(QK^T / √dk) V
 ```
@@ -36,7 +36,7 @@ Donde:
 - Visualizable: cuál token atiende cuál
 - Explainability mejorado
 
-## 3. Arquitectura Transformer Completa
+## 3. Arquitectura Transformer completa
 
 ### 3.1 Encoder Stack
 - Múltiples bloques idénticos (típicamente 12-24)
@@ -50,12 +50,12 @@ Donde:
 - Cross-Attention: Atiende a encoder output
 - Autoregresivo: Genera token por token
 
-### 3.3 Embeddings y Posiciones
-- Token Embeddings: Representación densa
-- Positional Encoding: Información de posición (sin entrenable)
+### 3.3 Embeddings y posiciones
+- Token Embeddings: representación densa
+- Positional Encoding: información de posición (sin entrenable)
 - Suma: Token + Position encoding
 
-## 4. Modelos Basados en Transformers
+## 4. Modelos basados en transformers
 
 ### 4.1 BERT (Bidirectional Encoder Representations)
 - Solo encoder
@@ -81,7 +81,7 @@ Donde:
 - Comparable con CNNs en ImageNet
 - Escalable a imágenes de alta resolución
 
-## 5. Preentrenamiento y Fine-tuning
+## 5. Preentrenamiento y fine-tuning
 
 ### 5.1 Preentrenamiento
 - **MLM (Masked Language Modeling)**: Predecir palabras enmascaradas
@@ -101,15 +101,15 @@ Donde:
 - Role-based prompting
 - Prompt engineering crítico
 
-## 6. Eficiencia y Escalabilidad
+## 6. Eficiencia y escalabilidad
 
-### 6.1 Complejidad Computacional
+### 6.1 Complejidad computacional
 - Self-attention: O(n²) en longitud secuencia
 - Linformer, Performer: Approximaciones lineales
 - Sparse attention para eficiencia
 
-### 6.2 Compresión de Modelos
-- Quantization: Reducir precisión
+### 6.2 Compresión de modelos
+- Quantization: reducir precisión
 - Pruning: Eliminar pesos
 - Destilación: Modelo pequeño aprende de grande
 - LoRA: Adaptación con pocos parámetros

@@ -119,7 +119,7 @@ Gestión de datos masivos, tecnologías de procesamiento distribuido, análisis 
 - Vision transformer (ViT)
 - Preentrenamiento y fine-tuning
 
-**Competencias:**
+**Competencias:
 - Comprender arquitectura transformer
 - Implementar mecanismos de attention
 - Fine-tuning de modelos preentrenados
@@ -130,7 +130,7 @@ Gestión de datos masivos, tecnologías de procesamiento distribuido, análisis 
 
 #### Bloque 6: Large language models (LLM)
 **Temas:**
-- Evolución de LLMs (GPT-2, GPT-3, GPT-4)
+- Evolución de LLM (GPT-2, GPT-3, GPT-4)
 - RLHF y alineación humana
 - Prompt engineering
 - Chain-of-thought prompting
@@ -189,7 +189,7 @@ Gestión de datos masivos, tecnologías de procesamiento distribuido, análisis 
 
 #### Bloque 1: Fundamentos big data
 **Temas:**
-- Las 5 Vs del big data
+- Las 5 V del big data
 - Arquitectura de sistemas big data
 - Hadoop y HDFS
 - MapReduce

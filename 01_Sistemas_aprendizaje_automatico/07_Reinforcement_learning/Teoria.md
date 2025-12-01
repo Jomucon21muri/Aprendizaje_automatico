@@ -1,9 +1,9 @@
-# Contenido Teórico: Reinforcement Learning
-## Sistemas de Aprendizaje Automático - Bloque 7
+# Contenido teórico: reinforcement learning
+## Sistemas de aprendizaje automático - Bloque 7
 
 ## 1. Fundamentos de RL
 
-### 1.1 El Problema de RL
+### 1.1 El problema de RL
 - Aprendizaje por interacción con ambiente
 - Objetivo: Maximizar recompensa acumulada
 - Exploración vs Explotación trade-off
@@ -22,7 +22,7 @@
 - R(s,a): Función de recompensa
 - γ: Factor de descuento [0,1)
 
-## 2. Conceptos Clave
+## 2. Conceptos clave
 
 ### 2.1 Política (Policy)
 - Mapeo Estado → Acción
@@ -30,8 +30,8 @@
 - Estocástica: π(a|s) = P(acción|estado)
 - Objetivo: Encontrar política óptima
 
-### 2.2 Funciones de Valor
-- **Value Function V(s)**: Valor esperado desde estado s
+### 2.2 Funciones de valor
+- **Value Function V(s)**: valor esperado desde estado s
 - **Action-Value Q(s,a)**: Valor de acción a en estado s
 - **Advantage A(s,a) = Q(s,a) - V(s)**
 
@@ -48,7 +48,7 @@ Descomposición: valor = recompensa inmediata + valor futuro
 - UCB (Upper Confidence Bound)
 - Thompson Sampling
 
-## 3. Métodos Value-Based
+## 3. Métodos value-based
 
 ### 3.1 Q-Learning
 - Off-policy: Aprende política óptima mientras explora
@@ -67,7 +67,7 @@ Descomposición: valor = recompensa inmediata + valor futuro
 - Más conservador que Q-Learning
 - Útil para control en línea
 
-## 4. Métodos Policy-Based
+## 4. Métodos policy-based
 
 ### 4.1 Policy Gradient
 - Optimiza política directamente
@@ -85,25 +85,25 @@ Descomposición: valor = recompensa inmediata + valor futuro
 - Reduce varianza vs REINFORCE
 - Ejemplo: A3C (Asynchronous Advantage Actor-Critic)
 
-### 4.4 Métodos Avanzados
-- **PPO (Proximal Policy Optimization)**: Clipping de ratio
+### 4.4 Métodos avanzados
+- **PPO (Proximal Policy Optimization)**: clipping de ratio
 - **TRPO (Trust Region)**: Restricción de región segura
 - **A3C**: Actor-Critic asincrónico paralelo
 - **SAC (Soft Actor-Critic)**: Máxima entropía
 
 ## 5. Model-Based RL
 
-### 5.1 Aprendizaje de Dinámicas
+### 5.1 Aprendizaje de dinámicas
 - Aprende modelo: P(s'|s,a) y R(s,a)
 - Planning: Usa modelo para decisiones
 - Data-efficient pero requiere más cómputo
 
-### 5.2 Métodos de Planning
-- Dyna: Combina learning y planning
+### 5.2 Métodos de planning
+- Dyna: combina learning y planning
 - Tree search: Monte Carlo Tree Search (MCTS)
 - AlphaGo: Combinación redes neuronales + MCTS
 
-## 6. Aplicaciones Prácticas
+## 6. Aplicaciones prácticas
 
 ### 6.1 Juegos
 - Atari: DQN, Rainbow
@@ -115,7 +115,7 @@ Descomposición: valor = recompensa inmediata + valor futuro
 - Navegación: Path planning
 - Control motor: Movimientos fluidos
 
-### 6.3 Sistemas Reales
+### 6.3 Sistemas reales
 - Conducción autónoma
 - Optimización de energía
 - Trading algorítmico
@@ -123,7 +123,7 @@ Descomposición: valor = recompensa inmediata + valor futuro
 
 ## 7. Desafíos
 
-### 7.1 Muestra Ineficiencia
+### 7.1 Muestra ineficiencia
 - Requiere millones de interacciones
 - Impracticable para sistemas reales
 - Solución: Transfer learning, simuladores

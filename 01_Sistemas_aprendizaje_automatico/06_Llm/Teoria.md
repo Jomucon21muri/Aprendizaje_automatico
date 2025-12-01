@@ -1,41 +1,41 @@
-# Contenido Teórico: Large Language Models (LLM)
-## Sistemas de Aprendizaje Automático - Bloque 6
+# Contenido teórico: Large Language Models (LLM)
+## Sistemas de aprendizaje automático - Bloque 6
 
 ## 1. Fundamentos de LLMs
 
-### 1.1 Definición y Características
+### 1.1 Definición y características
 - Modelos generativos basados en Transformers
 - Entrenados en corpus de texto masivo
 - Capacidad de predicción de siguiente token
 - Emergencia de habilidades con escala
 
-### 1.2 Escala y Emergencia
+### 1.2 Escala y emergencia
 - Ley de Escala: Performance ∝ log(Parámetros)
 - Habilidades emergen en ciertos umbrales
 - Few-shot learning con tamaño suficiente
 - In-context learning
 
-## 2. Preentrenamiento a Escala Masiva
+## 2. Preentrenamiento a escala masiva
 
-### 2.1 Datos de Entrenamiento
+### 2.1 Datos de entrenamiento
 - Corpus: Wikipedia, Common Crawl, código, libros
 - Volumen: Terabytes de texto
 - Filtrado y limpieza
 - Duplicación limitada
 
-### 2.2 Objetivo de Preentrenamiento
+### 2.2 Objetivo de preentrenamiento
 - Causal Language Modeling (Next Token Prediction)
 - Minimizar cross-entropy loss
 - Entrenamiento distribuido en miles de GPUs
 - Duración: Semanas a meses
 
-### 2.3 Métricas de Evaluación
-- Perplexity: Incertidumbre promedio por token
+### 2.3 Métricas de evaluación
+- Perplexity: incertidumbre promedio por token
 - Benchmarks: GLUE, SuperGLUE, MMLU, BigBench
 - Task-specific metrics: BLEU, ROUGE, F1
 - Human evaluation
 
-## 3. Técnicas de Alineación Humana
+## 3. Técnicas de alineación humana
 
 ### 3.1 Alineación (Alignment)
 - Problema: Modelos preentrenados pueden ser peligrosos
@@ -54,7 +54,7 @@
 - Ejemplo: FLAN, T0
 - Mejora generalización a tareas nuevas
 
-## 4. Familias Principales de LLMs
+## 4. Familias principales de LLMs
 
 ### 4.1 GPT Series (OpenAI)
 - **GPT-2** (2019): 1.5B params, open source
@@ -82,9 +82,9 @@
 - Versiones: 7B, 8x7B (Mixture of Experts)
 - Enfoque comercial open source
 
-## 5. Métodos de Aprovechamiento (Prompting)
+## 5. Métodos de aprovechamiento (Prompting)
 
-### 5.1 Prompting Básico
+### 5.1 Prompting básico
 - Zero-shot: Sin ejemplos
 - Few-shot: Con ejemplos en contexto
 - Instruction: Instrucciones explícitas
@@ -106,9 +106,9 @@
 - ReAct: Reasoning + Acting
 - Ejemplo: AutoGPT, LangChain agents
 
-## 6. Adaptación y Especialización
+## 6. Adaptación y especialización
 
-### 6.1 Fine-tuning Completo
+### 6.1 Fine-tuning completo
 - Reentrenamiento de todos los pesos
 - Requiere GPU de alto rendimiento
 - Riesgo: Catastrophic forgetting
@@ -123,7 +123,7 @@
 - No requiere reentrenamiento
 - Eficiente pero menos potente
 
-## 7. Desafíos y Consideraciones
+## 7. Desafíos y consideraciones
 
 ### 7.1 Hallucinations
 - Generación de información falsa
@@ -135,12 +135,12 @@
 - Puede amplificar estereotipos
 - Evaluación: Benchmark de fairness
 
-### 7.3 Costo Computacional
-- Entrenamiento: Millones de dólares, semanas
+### 7.3 Costo computacional
+- Entrenamiento: millones de dólares, semanas
 - Inferencia: Caro en escala
 - Optimizaciones: Quantization, distillation
 
-### 7.4 Privacidad y Seguridad
+### 7.4 Privacidad y seguridad
 - Memorización de datos de entrenamiento
 - Ataques: Adversarial prompts
 - Regulación: GDPR, IA Act (EU)

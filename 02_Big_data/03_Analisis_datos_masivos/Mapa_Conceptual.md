@@ -1,7 +1,7 @@
-# Mapa Conceptual: Análisis de Datos Masivos
+# Mapa conceptual: análisis de datos masivos
 ## Big Data - Bloque 3
 
-### Pipeline de Análisis
+### Pipeline de análisis
 
 ```
 Datos Masivos
@@ -19,24 +19,24 @@ Visualización y Insights
 Decisiones Accionables
 ```
 
-### Técnicas de Análisis
+### Técnicas de análisis
 
 **Estadístico**
 - Descriptiva en escala masiva
 - Sampling estratificado
 - Correlaciones distribuidas
 
-**Machine Learning Distribuido**
+**Machine Learning distribuido**
 - Regresión escalable
 - Clustering en paralelo
 - Feature engineering masivo
 
-**Análisis Exploratorio (EDA)**
+**Análisis exploratorio (EDA)**
 - Perfiles de datos
 - Detección de anomalías
 - Relaciones entre variables
 
-### Desafíos Especiales
+### Desafíos especiales
 - Escalabilidad y distribución
 - Manejo de valores faltantes
 - Sesgo en muestreo

@@ -1,12 +1,12 @@
 # Tarea: Large Language Models (LLM)
-## Sistemas de Aprendizaje Automático - Bloque 6
+## Sistemas de aprendizaje automático - Bloque 6
 
 ### Objetivo
 Aprender a trabajar con LLMs: desde prompting hasta fine-tuning en aplicaciones prácticas.
 
 ### Actividades
 
-#### Actividad 1: Exploración de APIs de LLMs
+#### Actividad 1: exploración de APIs de LLMs
 - Registra en: OpenAI, Anthropic, o Google Cloud
 - Experimenta con diferentes modelos
 - Compara capacidades y costos
@@ -36,14 +36,14 @@ Aprender a trabajar con LLMs: desde prompting hasta fine-tuning en aplicaciones 
 - Compara con LLM sin contexto
 - Mide reducción de hallucinations
 
-#### Actividad 5: Fine-tuning o LoRA
-- Opción A: Fine-tuning completo de LLaMA/Mistral
+#### Actividad 5: fine-tuning o LoRA
+- Opción A: fine-tuning completo de LLaMA/Mistral
 - Opción B: LoRA en modelo base
 - Dataset: Especialidad específica
 - Comparar: Base vs Fine-tuned rendimiento
 - Análisis: Cuándo usar cada enfoque
 
-#### Actividad 6: Aplicación Integral
+#### Actividad 6: aplicación integral
 Desarrolla aplicación completa:
 1. **Entrada**: Usuario proporciona consulta o documento
 2. **Procesamiento**: Prompt construction, RAG si aplica
@@ -52,7 +52,7 @@ Desarrolla aplicación completa:
 5. **Interfaz**: CLI, web, o API
 6. **Evaluación**: Métricas y feedback humano
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Exploración de APIs: 10%
 - Prompt Engineering: 20%
 - Chain-of-Thought: 15%

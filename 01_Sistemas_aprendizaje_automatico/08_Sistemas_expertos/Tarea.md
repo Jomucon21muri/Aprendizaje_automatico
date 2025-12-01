@@ -6,26 +6,26 @@ Diseñar y prototipar un sistema experto simple en un dominio específico.
 
 ### Actividades
 
-#### Actividad 1: Análisis de Dominio
+#### Actividad 1: análisis de dominio
 Selecciona un dominio específico (diagnóstico, recomendación, etc.) y documenta:
 - Problema a resolver
 - Experto(s) de referencia
 - Alcance del sistema
 
-#### Actividad 2: Captura de Conocimiento
+#### Actividad 2: captura de conocimiento
 Extrae mínimo 15 reglas de producción (Si-Entonces) del dominio seleccionado y organízalas lógicamente.
 
-#### Actividad 3: Prototipo
+#### Actividad 3: prototipo
 Implementa un prototipo del sistema experto usando:
 - Lenguaje de programación a elección
 - O herramienta como CLIPS, Jess, o similar
 
-#### Actividad 4: Validación
+#### Actividad 4: validación
 - Prueba el sistema con 5 casos de prueba
 - Documenta los resultados
 - Identifica limitaciones
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Selección apropiada del dominio: 20%
 - Captura y formalización del conocimiento: 30%
 - Correctitud de la implementación: 30%

@@ -1,12 +1,12 @@
-# Tarea: Validación y Evaluación de Modelos
-## Sistemas de Aprendizaje Automático - Bloque 3
+# Tarea: validación y evaluación de modelos
+## Sistemas de aprendizaje automático - Bloque 3
 
 ### Objetivo
 Demostrar dominio en técnicas de validación y evaluación de modelos ML.
 
 ### Actividades
 
-#### Actividad 1: Comparación de Validación
+#### Actividad 1: comparación de validación
 Implementa sobre un modelo:
 - Train/Test Split simple
 - K-Fold (k=5)
@@ -14,31 +14,31 @@ Implementa sobre un modelo:
 
 Compara estabilidad y varianza de resultados.
 
-#### Actividad 2: Análisis Sesgo-Varianza
+#### Actividad 2: análisis sesgo-varianza
 - Genera learning curves para un modelo
 - Identifica si sufre overfitting o underfitting
 - Propone estrategias de corrección
 
-#### Actividad 3: Evaluación Completa
+#### Actividad 3: evaluación completa
 Para modelo de clasificación:
 - Matriz de confusión
 - Precisión, Recall, F1-Score
 - Curva ROC y AUC
 - Análisis por clase
 
-#### Actividad 4: Ajuste de Hiperparámetros
+#### Actividad 4: ajuste de hiperparámetros
 - Implementa Grid Search o Random Search
 - Evalúa 3-5 hiperparámetros clave
 - Crea validation curves
 - Selecciona configuración óptima
 
-#### Actividad 5: Reporte Técnico
+#### Actividad 5: reporte técnico
 - Documenta metodología de validación
 - Compara modelos con métricas
 - Justifica selección de hiperparámetros
 - Propone mejoras futuras
 
-### Criterios de Evaluación
+### Criterios de evaluación
 - Implementación de técnicas: 30%
 - Análisis sesgo-varianza: 20%
 - Métricas completas: 25%

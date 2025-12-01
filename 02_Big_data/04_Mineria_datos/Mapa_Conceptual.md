@@ -1,7 +1,7 @@
-# Mapa Conceptual: Minería de Datos
+# Mapa conceptual: minería de datos
 ## Big Data - Bloque 4
 
-### Proceso de Minería de Datos (CRISP-DM)
+### Proceso de minería de datos (CRISP-DM)
 
 ```
 ├── 1. Business Understanding
@@ -32,7 +32,7 @@
     └── Mantenimiento
 ```
 
-### Técnicas de Minería
+### Técnicas de minería
 
 ```
 Minería de Datos
@@ -49,7 +49,7 @@ Minería de Datos
         └── Recomendaciones
 ```
 
-### Métricas de Éxito
+### Métricas de éxito
 - ROI (Retorno de Inversión)
 - Precisión/Recall del modelo
 - Reducción de costos

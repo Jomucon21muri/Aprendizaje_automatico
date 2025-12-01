@@ -1,14 +1,14 @@
-# Mapa Conceptual: Machine Learning Supervisado
-## Sistemas de Aprendizaje Automático - Bloque 1
+# Mapa conceptual: machine learning supervisado
+## Sistemas de aprendizaje automático - Bloque 1
 
-### Aprendizaje Supervisado
+### Aprendizaje supervisado
 Requiere datos etiquetados (entrada-salida conocida)
 
-### Tareas Principales
-- **Clasificación**: Predecir categorías discretas
-- **Regresión**: Predecir valores continuos
+### Tareas principales
+- **Clasificación**: predecir categorías discretas
+- **Regresión**: predecir valores continuos
 
-### Algoritmos de Clasificación
+### Algoritmos de clasificación
 ```
 Supervisado
     ├── Clasificación
@@ -24,12 +24,12 @@ Supervisado
         └── SVR (Support Vector Regression)
 ```
 
-### Flujo de Trabajo
+### Flujo de trabajo
 ```
 Datos → Preparación → División Train/Test → 
 Entrenamiento → Validación → Evaluación
 ```
 
-### Métricas de Evaluación
+### Métricas de evaluación
 - Precisión, Recall, F1-Score (Clasificación)
 - MAE, MSE, RMSE (Regresión)

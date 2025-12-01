@@ -1,4 +1,4 @@
-# Mapa Conceptual: Fundamentos de Big Data
+# Mapa conceptual: fundamentos de big data
 ## Big Data - Bloque 1
 
 ### Las 5 Vs del Big Data
@@ -12,24 +12,24 @@ Big Data
   └── Valor (insights y decisiones)
 ```
 
-### Características Esenciales
-- **Escala**: Datos que exceden capacidad tradicional
+### Características esenciales
+- **Escala**: datos que exceden capacidad tradicional
 - **Complejidad**: Múltiples fuentes y formatos
 - **Procesamiento**: Requiere tecnologías especializadas
 - **Almacenamiento**: Distribución y redundancia
 
-### Tipos de Datos
+### Tipos de datos
 - Estructurados (BD relacionales)
 - Semiestructurados (JSON, XML)
 - No estructurados (imágenes, videos, texto)
 
-### Infraestructura Tecnológica
+### Infraestructura tecnológica
 ```
 Recolección → Almacenamiento → Procesamiento → 
 Análisis → Visualización → Acción
 ```
 
-### Tecnologías Clave
+### Tecnologías clave
 - Hadoop, Spark
 - NoSQL (MongoDB, Cassandra)
 - Cloud Computing (AWS, Azure, GCP)

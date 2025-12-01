@@ -1,12 +1,12 @@
-# Mapa Conceptual: Validación y Evaluación de Modelos
-## Sistemas de Aprendizaje Automático - Bloque 3
+# Mapa conceptual: validación y evaluación de modelos
+## Sistemas de aprendizaje automático - Bloque 3
 
-### Conceptos Centrales
-- **Overfitting**: Modelo memoriza datos
-- **Underfitting**: Modelo muy simple
-- **Generalización**: Capacidad en datos nuevos
+### Conceptos centrales
+- **Overfitting**: modelo memoriza datos
+- **Underfitting**: modelo muy simple
+- **Generalización**: capacidad en datos nuevos
 
-### Técnicas de Validación
+### Técnicas de validación
 ```
 Validación
     ├── Train/Test Split
@@ -15,7 +15,7 @@ Validación
     └── Time Series Split
 ```
 
-### Métricas por Tipo
+### Métricas por tipo
 
 **Clasificación**
 - Exactitud (Accuracy)
@@ -29,7 +29,7 @@ Validación
 - R² (Coeficiente de Determinación)
 - MAPE (Error Porcentual Absoluto Medio)
 
-### Curvas de Diagnóstico
+### Curvas de diagnóstico
 - Learning Curves (Entrenamiento vs Validación)
 - Validation Curves (Hiperparámetro vs Rendimiento)
 - ROC Curves
