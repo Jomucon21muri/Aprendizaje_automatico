@@ -1,4 +1,4 @@
-# 📚 Curso de especialización en aprendizaje automático
+# 📚 Curso de aprendizaje automático
 
 Repositorio de formación integral en **machine learning y big data** con teoría, mapas conceptuales y ejercicios prácticos.
 
@@ -63,29 +63,6 @@ Recursos por bloque:
 
 ---
 
-## 📋 Estructura del contenido
-
-### Por cada bloque de aprendizaje:
-
-```
-Bloque_nombre/
-├── Mapa_Conceptual.md      # Diagrama visual de conceptos
-├── Teoria.md               # Contenido teórico completo
-└── Tarea.md                # Ejercicio práctico con criterios
-```
-
-### Por cada módulo:
-
-```
-Modulo/
-├── 00_Bloque_tematico/     # Contenidos + Actividades
-├── 01_Bloque_tematico/     
-├── 02_Bloque_tematico/
-├── ...
-└── Informacion_Adicional.md # Recursos y referencias
-```
-
----
 
 ## 🎓 Estructura de aprendizaje
 
@@ -136,22 +113,6 @@ Modulo/
 
 ---
 
-## 📊 Mapas de Navegación Rápida
-
-### Ruta principiante (recomendado)
-1. Conceptos básicos de IA → ML supervisado → Fundamentos big data
-2. Continuación: ML no supervisado → Herramientas procesamiento
-3. Intermedio: Validación/evaluación → Análisis masivo
-4. Avanzado: Deep learning → Transformers → Minería de datos
-5. Especialización: LLM → Reinforcement learning → Sistemas expertos
-
-### Ruta por interés profesional
-- **Data scientist**: Conceptos básicos IA → ML supervisado → ML no supervisado → Validación → Deep learning → Minería de datos
-- **ML engineer**: Deep learning → Transformers → LLM → Reinforcement learning → Validación → Sistemas expertos
-- **Data engineer**: Big data fundamentos → Herramientas Spark → Análisis masivo → Minería de datos
-
----
-
 ## 📈 Requisitos previos
 
 - Conocimientos básicos de programación (Python)
@@ -180,23 +141,6 @@ Modulo/
 - [Análisis masivo - Bloque 3](./02_Big_data/03_Analisis_datos_masivos/Tarea.md)
 - [Minería datos - Bloque 4](./02_Big_data/04_Mineria_datos/Teoria.md)
 
----
-
-## ✅ Criterios de calidad y accesibilidad
-
-✓ Contenido estructurado y modular  
-✓ Múltiples formatos de presentación  
-✓ Ejercicios prácticos progresivos  
-✓ Criterios de evaluación claros  
-✓ Estándares éticos y legales  
-✓ Accesibilidad WCAG 2.1  
-✓ Cumplimiento GDPR/CCPA  
-
----
-
-## 📞 Información de contacto y soporte
-
-Para consultas, sugerencias o reportar errores, contacta con el equipo de desarrollo.
 
 ---
 
