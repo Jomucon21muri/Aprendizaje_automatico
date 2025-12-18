@@ -2,7 +2,7 @@
 
 Repositorio de formación integral en **machine learning y big data** con teoría, mapas conceptuales y ejercicios prácticos.
 
-## 🎯 Competencia general
+## Competencia general
 
 Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la información y la explotación de datos masivos, garantizando:
 - ✅ Acceso seguro a datos
@@ -32,10 +32,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 | **7** | [Reinforcement learning](./01_Sistemas_aprendizaje_automatico/07_Reinforcement_learning/) | Q-learning, policy gradient, actor-critic, DQN |
 | **8** | [Sistemas expertos](./01_Sistemas_aprendizaje_automatico/08_Sistemas_expertos/) | Arquitectura, base de conocimiento, motor de inferencia |
 
-Recursos por bloque:
-- 📊 **Mapa_Conceptual.md**: Categorización de algoritmos
-- 📖 **Teoria.md**: Fundamentos matemáticos y conceptuales
-- 📝 **Tarea.md**: Implementación práctica
 
 **Información adicional**: [Recursos complementarios](./01_Sistemas_aprendizaje_automatico/Informacion_Adicional.md)
 
@@ -54,10 +50,6 @@ Recursos por bloque:
 | **3** | [Análisis datos masivos](./02_Big_data/03_Analisis_datos_masivos/) | ETL, EDA, ML distribuido, visualización |
 | **4** | [Minería de datos](./02_Big_data/04_Mineria_datos/) | CRISP-DM, técnicas predictivas, descriptivas, deployment |
 
-Recursos por bloque:
-- 📊 **Mapa_Conceptual.md**: Ecosistema de tecnologías
-- 📖 **Teoria.md**: Conceptos y arquitecturas
-- 📝 **Tarea.md**: Proyectos prácticos
 
 **Información adicional**: [Recursos complementarios](./02_Big_data/Informacion_Adicional.md)
 
