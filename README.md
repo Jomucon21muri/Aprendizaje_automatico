@@ -2,14 +2,6 @@
 
 Repositorio de formación integral en **machine learning y big data** con teoría, mapas conceptuales y ejercicios prácticos.
 
-## Competencia general
-
-Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la información y la explotación de datos masivos, garantizando:
-- ✅ Acceso seguro a datos
-- ✅ Criterios de accesibilidad y usabilidad
-- ✅ Calidad según estándares establecidos
-- ✅ Principios éticos y legales
-
 ## 📖 Módulos del curso
 
 ### 1. 🧠 [Sistemas de aprendizaje automático](./01_Sistemas_aprendizaje_automatico/)
@@ -54,7 +46,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 ## 🎓 Estructura de aprendizaje
 
 ### Recomendación de estudio:
-
 1. **Lectura de teoría** 📖
    - Lee el archivo `Teoria.md` de cada bloque
    - Consulta el `Mapa_Conceptual.md` para visualizar relaciones
@@ -72,59 +63,19 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 
 
 ## 🛠️ Tecnologías clave por módulo
+| Área | Tecnologías / Herramientas |
+|------|----------------------------|
+| **Machine Learning – Base** | Python 3.x<br>Scikit-learn<br>Pandas / NumPy<br>Matplotlib / Seaborn<br>Jupyter Notebook<br>CLIPS / Jess (sistemas expertos) |
+| **Machine Learning – Avanzado** | Deep Learning: TensorFlow / Keras, PyTorch<br>Transformers: Hugging Face, `transformers` library<br>LLM: OpenAI API, Anthropic, LLaMA, Mistral<br>Reinforcement Learning: Gym, Stable-Baselines3, Ray RLLib<br>Visualización: TensorBoard, Weights & Biases |
+| **Big Data** | Apache Spark / PySpark<br>Apache Hadoop<br>Apache Kafka<br>SQL (Spark SQL, Presto)<br>Cloud: AWS / Azure / Google Cloud<br>Herramientas BI: Tableau, Looker, Superset<br>Minería distribuida: scikit-learn distribuido, Dask |
 
-### Machine learning - base
-- Python 3.x
-- Scikit-learn
-- Pandas / NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
-- CLIPS / Jess (sistemas expertos)
-
-### Machine learning - avanzado
-- **Deep learning**: TensorFlow/Keras, PyTorch
-- **Transformers**: Hugging Face, transformers library
-- **LLM**: OpenAI API, Anthropic, LLaMA, Mistral
-- **Reinforcement learning**: Gym, Stable-Baselines3, Ray RLLib
-- **Visualización**: Tensorboard, Weights & Biases
-
-### Big data
-- Apache Spark / PySpark
-- Apache Hadoop
-- Apache Kafka
-- SQL (Spark SQL, Presto)
-- Cloud: AWS / Azure / Google Cloud
-- Herramientas BI: Tableau, Looker, Superset
-- Minería: scikit-learn distribuido, Dask
 
 
 ## 📈 Requisitos previos
-
 - Conocimientos básicos de programación (Python)
 - Matemática: álgebra lineal, cálculo, probabilidad
 - Conceptos de estructuras de datos
 - Familiaridad con línea de comandos
-
-
-## 🔗 Enlaces directos a contenido
-
-### Machine learning
-- [Conceptos básicos IA - Bloque 0](./01_Sistemas_aprendizaje_automatico/00_Conceptos_basicos_ia/Teoria.md)
-- [ML supervisado - Bloque 1](./01_Sistemas_aprendizaje_automatico/01_Ml_supervisado/Mapa_Conceptual.md)
-- [ML no supervisado - Bloque 2](./01_Sistemas_aprendizaje_automatico/02_Ml_no_supervisado/Teoria.md)
-- [Validación - Bloque 3](./01_Sistemas_aprendizaje_automatico/03_Validacion_evaluacion/Tarea.md)
-- [Deep learning - Bloque 4](./01_Sistemas_aprendizaje_automatico/04_Deep_learning/Teoria.md)
-- [Transformers - Bloque 5](./01_Sistemas_aprendizaje_automatico/05_Transformers/Teoria.md)
-- [LLM - Bloque 6](./01_Sistemas_aprendizaje_automatico/06_Llm/Teoria.md)
-- [Reinforcement learning - Bloque 7](./01_Sistemas_aprendizaje_automatico/07_Reinforcement_learning/Teoria.md)
-- [Sistemas expertos - Bloque 8](./01_Sistemas_aprendizaje_automatico/08_Sistemas_expertos/Teoria.md)
-
-### Big data
-- [Fundamentos - Bloque 1](./02_Big_data/01_Fundamentos_big_data/Mapa_Conceptual.md)
-- [Herramientas - Bloque 2](./02_Big_data/02_Herramientas_procesamiento/Teoria.md)
-- [Análisis masivo - Bloque 3](./02_Big_data/03_Analisis_datos_masivos/Tarea.md)
-- [Minería datos - Bloque 4](./02_Big_data/04_Mineria_datos/Teoria.md)
-
 
 
 ## 📄 Licencia
