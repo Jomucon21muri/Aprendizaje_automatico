@@ -10,8 +10,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 - ✅ Calidad según estándares establecidos
 - ✅ Principios éticos y legales
 
----
-
 ## 📖 Módulos del curso
 
 ### 1. 🧠 [Sistemas de aprendizaje automático](./01_Sistemas_aprendizaje_automatico/)
@@ -35,7 +33,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 
 **Información adicional**: [Recursos complementarios](./01_Sistemas_aprendizaje_automatico/Informacion_Adicional.md)
 
----
 
 ### 2. 📊 [Big data](./02_Big_data/)
 
@@ -52,8 +49,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 
 
 **Información adicional**: [Recursos complementarios](./02_Big_data/Informacion_Adicional.md)
-
----
 
 
 ## 🎓 Estructura de aprendizaje
@@ -75,7 +70,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
    - Aplica conocimiento a casos reales
    - Participa en proyectos integradores
 
----
 
 ## 🛠️ Tecnologías clave por módulo
 
@@ -103,7 +97,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 - Herramientas BI: Tableau, Looker, Superset
 - Minería: scikit-learn distribuido, Dask
 
----
 
 ## 📈 Requisitos previos
 
@@ -112,7 +105,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 - Conceptos de estructuras de datos
 - Familiaridad con línea de comandos
 
----
 
 ## 🔗 Enlaces directos a contenido
 
@@ -134,7 +126,6 @@ Programar y aplicar **sistemas inteligentes** que optimizan la gestión de la in
 - [Minería datos - Bloque 4](./02_Big_data/04_Mineria_datos/Teoria.md)
 
 
----
 
 ## 📄 Licencia
 
