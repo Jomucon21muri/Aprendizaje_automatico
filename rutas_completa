@@ -1,0 +1,202 @@
+Data Science / Analytics
+├── 1. Fundamentals
+│   ├── Mathematics & Linear Algebra
+│   │   ├── Matrices
+│   │   ├── Vectors
+│   │   ├── Eigenvalues & Eigenvectors
+│   │   ├── Distance Metrics
+│   │   │   ├── Euclidean
+│   │   │   ├── Manhattan
+│   │   │   └── Cosine
+│   │   └── Covariance & Correlation
+│   ├── Databases
+│   │   ├── Relational Algebra
+│   │   │   ├── Inner Join
+│   │   │   ├── Outer Join
+│   │   │   ├── Cross Join
+│   │   │   └── Theta Join
+│   │   ├── OLAP
+│   │   ├── Multidimensional Data Model
+│   │   └── Tabular Data
+│   ├── Data Structures
+│   │   ├── Arrays
+│   │   ├── Lists
+│   │   ├── Data Frames & Series
+│   │   ├── Hash Functions
+│   │   ├── Binary Trees
+│   │   └── Sharding
+│   └── ETL & Reporting
+│       ├── ETL
+│       ├── Reporting vs BI vs Analytics
+│       ├── JSON & XML
+│       └── CSV
+│
+├── 2. Statistics
+│   ├── Probability
+│   │   ├── Probability Theory
+│   │   ├── Bayes Theorem
+│   │   ├── Random Variables
+│   │   └── Distributions
+│   │       ├── Normal
+│   │       ├── Poisson
+│   │       └── Gaussian
+│   ├── Descriptive Statistics
+│   │   ├── Mean, Median, Range
+│   │   ├── Variance & Std Dev
+│   │   ├── Percentiles & Outliers
+│   │   ├── Skewness
+│   │   ├── Entropy
+│   │   └── Histograms
+│   └── Inferential Statistics
+│       ├── Hypothesis Testing
+│       ├── p-value
+│       ├── Confidence Interval
+│       ├── Z-test / T-test
+│       ├── ANOVA
+│       └── Chi-Square Test
+│
+├── 3. Programming
+│   ├── Programming Fundamentals
+│   │   ├── Variables
+│   │   ├── Expressions
+│   │   ├── Functions
+│   │   └── Control Flow
+│   ├── Languages
+│   │   ├── Python
+│   │   ├── R
+│   │   └── Java
+│   └── Data Handling
+│       ├── Reading CSV
+│       ├── Reading Raw Data
+│       ├── Subsetting Data
+│       └── Data Frame Manipulation
+│
+├── 4. Machine Learning
+│   ├── Supervised Learning
+│   │   ├── Linear Regression
+│   │   ├── Logistic Regression
+│   │   ├── KNN
+│   │   ├── Naive Bayes
+│   │   ├── Decision Trees
+│   │   ├── Random Forest
+│   │   ├── Boosting
+│   │   └── SVM
+│   ├── Unsupervised Learning
+│   │   ├── Clustering
+│   │   │   ├── K-Means
+│   │   │   ├── Hierarchical
+│   │   │   └── Density-Based
+│   │   └── Dimensionality Reduction
+│   │       ├── PCA
+│   │       └── Feature Selection
+│   ├── Model Evaluation
+│   │   ├── Train / Test Split
+│   │   ├── Cross Validation
+│   │   ├── Overfitting & Underfitting
+│   │   ├── Bias-Variance Tradeoff
+│   │   └── Metrics
+│   │       ├── Accuracy
+│   │       ├── Precision
+│   │       ├── Recall
+│   │       └── F1 Score
+│   └── Feature Engineering
+│       ├── Feature Extraction
+│       ├── Feature Transformation
+│       └── Feature Selection
+│
+├── 5. Text Mining & NLP
+│   ├── Text Preprocessing
+│   │   ├── Tokenization
+│   │   ├── Stopword Removal
+│   │   ├── Stemming
+│   │   └── Lemmatization
+│   ├── Text Representation
+│   │   ├── Bag of Words
+│   │   ├── TF
+│   │   ├── TF-IDF
+│   │   ├── N-Grams
+│   │   └── Word Vectors
+│   ├── NLP Models
+│   │   ├── Named Entity Recognition
+│   │   ├── Topic Modeling
+│   │   ├── Sentiment Analysis
+│   │   └── Text Classification
+│   └── NLP Tools
+│       ├── NLTK
+│       ├── OpenNLP
+│       ├── Mahout
+│       └── Weka
+│
+├── 6. Visualization
+│   ├── Univariate Visualization
+│   │   ├── Histogram
+│   │   └── Pie Chart
+│   ├── Multivariate Visualization
+│   │   ├── Scatter Plot
+│   │   ├── Tree Map
+│   │   ├── Line Chart
+│   │   └── Spatial Charts
+│   └── Visualization Tools
+│       ├── ggplot2
+│       ├── D3.js
+│       ├── Shiny
+│       └── BI Tools
+│
+├── 7. Big Data
+│   ├── Hadoop Ecosystem
+│   │   ├── HDFS
+│   │   ├── MapReduce
+│   │   ├── YARN
+│   │   └── Zookeeper
+│   ├── Frameworks
+│   │   ├── Spark
+│   │   ├── Storm
+│   │   ├── Kafka
+│   │   ├── Flume
+│   │   └── Sqoop
+│   ├── NoSQL Databases
+│   │   ├── Cassandra
+│   │   ├── MongoDB
+│   │   ├── Neo4j
+│   │   └── HBase
+│   └── Processing
+│       ├── Batch Processing
+│       ├── Real-Time Processing
+│       └── Data Replication
+│
+├── 8. Data Ingestion
+│   ├── Data Sources & Acquisition
+│   ├── Data Discovery
+│   ├── Data Integration
+│   ├── Data Fusion
+│   ├── Streaming Data
+│   └── Data Formats
+│
+├── 9. Data Munging (Wrangling)
+│   ├── Missing Values Handling
+│   ├── Outlier Treatment
+│   ├── Data Scrubbing
+│   ├── Normalization
+│   ├── Dimensionality Reduction
+│   └── Sampling
+│       ├── Random
+│       ├── Stratified
+│       └── PCA-based
+│
+└── 10. Toolbox
+    ├── Languages & Environments
+    │   ├── Python
+    │   ├── R / RStudio
+    │   └── Java
+    ├── Tools
+    │   ├── Excel (Analysis ToolPak)
+    │   ├── KNIME
+    │   ├── RapidMiner
+    │   ├── Weka
+    │   └── IBM SPSS
+    └── Libraries
+        ├── NumPy
+        ├── Pandas
+        ├── Scikit-learn
+        ├── ggplot2
+        └── NLTK
