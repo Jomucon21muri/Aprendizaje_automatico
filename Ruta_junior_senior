@@ -1,0 +1,135 @@
+Data Science Roadmap
+├── Junior Level
+│   ├── Fundamentals
+│   │   ├── Data Types (CSV, JSON, Tabular)
+│   │   ├── ETL Basics
+│   │   ├── Relational Databases
+│   │   │   ├── Inner Join
+│   │   │   └── Outer Join
+│   │   ├── Data Structures
+│   │   │   ├── Arrays
+│   │   │   └── Data Frames
+│   │   └── Linear Algebra
+│   │       ├── Vectors
+│   │       ├── Matrices
+│   │       └── Distance Metrics
+│   │           └── Euclidean
+│   │
+│   ├── Statistics
+│   │   ├── Descriptive Statistics
+│   │   │   ├── Mean
+│   │   │   ├── Median
+│   │   │   ├── Variance
+│   │   │   └── Std Deviation
+│   │   ├── Probability Basics
+│   │   ├── Normal Distribution
+│   │   └── Exploratory Data Analysis
+│   │
+│   ├── Programming
+│   │   ├── Python Basics
+│   │   ├── Variables & Functions
+│   │   ├── Control Flow
+│   │   └── Data Handling
+│   │       ├── Reading CSV
+│   │       └── Data Cleaning
+│   │
+│   ├── Data Munging
+│   │   ├── Missing Values
+│   │   ├── Outlier Handling
+│   │   └── Data Normalization
+│   │
+│   ├── Visualization
+│   │   ├── Histogram
+│   │   ├── Scatter Plot
+│   │   └── Line Chart
+│   │
+│   └── Machine Learning (Intro)
+│       ├── Train / Test Split
+│       ├── Linear Regression
+│       ├── Logistic Regression
+│       ├── KNN
+│       └── Model Evaluation
+│           └── Accuracy
+│
+├── Mid Level
+│   ├── Statistics (Advanced)
+│   │   ├── Hypothesis Testing
+│   │   ├── p-value
+│   │   ├── Confidence Intervals
+│   │   ├── ANOVA
+│   │   └── Bias–Variance Tradeoff
+│   │
+│   ├── Machine Learning (Core)
+│   │   ├── Decision Trees
+│   │   ├── Random Forest
+│   │   ├── Naive Bayes
+│   │   ├── SVM
+│   │   ├── Cross Validation
+│   │   └── Overfitting vs Underfitting
+│   │
+│   ├── Feature Engineering
+│   │   ├── Encoding Categorical Variables
+│   │   ├── Scaling
+│   │   ├── Feature Selection
+│   │   └── PCA
+│   │
+│   ├── Unsupervised Learning
+│   │   ├── K-Means
+│   │   ├── Hierarchical Clustering
+│   │   └── Density-Based Clustering
+│   │
+│   ├── Text Mining & NLP
+│   │   ├── Tokenization
+│   │   ├── Bag of Words
+│   │   ├── TF / TF-IDF
+│   │   ├── Sentiment Analysis
+│   │   └── Text Classification
+│   │
+│   └── Visualization (Advanced)
+│       ├── Multivariate Plots
+│       ├── Tree Maps
+│       └── Interactive Charts
+│
+└── Senior Level
+    ├── Big Data
+    │   ├── Hadoop Ecosystem
+    │   │   ├── HDFS
+    │   │   ├── MapReduce
+    │   │   ├── YARN
+    │   │   └── Zookeeper
+    │   ├── Frameworks
+    │   │   ├── Spark
+    │   │   ├── Kafka
+    │   │   └── Storm
+    │   └── Processing
+    │       ├── Batch Processing
+    │       └── Real-Time Processing
+    │
+    ├── Data Ingestion
+    │   ├── Data Sources & Acquisition
+    │   ├── Data Integration
+    │   ├── Data Fusion
+    │   └── Streaming Data
+    │
+    ├── Advanced Machine Learning
+    │   ├── Ensemble Methods
+    │   ├── Model Explainability
+    │   ├── Drift Detection
+    │   └── Model Monitoring
+    │
+    ├── Advanced NLP
+    │   ├── Word Embeddings
+    │   ├── Topic Modeling
+    │   └── Named Entity Recognition
+    │
+    ├── Architecture & Systems
+    │   ├── End-to-End Pipelines
+    │   ├── Scalability
+    │   ├── Fault Tolerance
+    │   └── Data Replication
+    │
+    └── Leadership & Strategy
+        ├── Tool Selection
+        ├── Code Reviews
+        ├── Mentoring
+        └── Business Translation
