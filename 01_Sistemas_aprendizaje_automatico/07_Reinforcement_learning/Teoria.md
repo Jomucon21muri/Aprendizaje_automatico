@@ -1,139 +1,365 @@
-# Contenido teórico: reinforcement learning
-## Sistemas de aprendizaje automático - Bloque 7
+# Aprendizaje por Refuerzo: Fundamentos y Algoritmos
+## Sistemas de Aprendizaje Automático - Bloque 7
 
-## 1. Fundamentos de RL
+## Resumen
 
-### 1.1 El problema de RL
-- Aprendizaje por interacción con ambiente
-- Objetivo: Maximizar recompensa acumulada
-- Exploración vs Explotación trade-off
-- Retroalimentación retrasada
+El Aprendizaje por Refuerzo (Reinforcement Learning) constituye un paradigma fundamental del aprendizaje automático donde un agente aprende a tomar decisiones óptimas mediante interacción con su entorno, recibiendo retroalimentación en forma de recompensas. Este documento examina rigurosamente los fundamentos teóricos basados en Procesos de Decisión de Markov, algoritmos value-based y policy-based, métodos actor-critic, y enfoques model-based. Se analizan aplicaciones desde juegos estratégicos hasta robótica y sistemas de control, proporcionando una comprensión integral de técnicas que han revolucionado campos como la IA para videojuegos y control autónomo.
 
-### 1.2 Procesos de Markov
-- Propiedad de Markov: futuro depende solo del presente
-- Estados tienen información suficiente
-- Transiciones probabilísticas
+## 1. Fundamentos Teóricos del Aprendizaje por Refuerzo
 
-### 1.3 Markov Decision Process (MDP)
-- Tupla: (S, A, P, R, γ)
-- S: Espacio de estados
-- A: Espacio de acciones
-- P(s'|s,a): Dinámica de transición
-- R(s,a): Función de recompensa
-- γ: Factor de descuento [0,1)
+### 1.1 Problema Fundamental y Definición
 
-## 2. Conceptos clave
+El Aprendizaje por Refuerzo aborda el problema de cómo un agente debe actuar en un entorno para maximizar recompensa acumulada a largo plazo:
 
-### 2.1 Política (Policy)
-- Mapeo Estado → Acción
-- Determinística: π(s) = a
-- Estocástica: π(a|s) = P(acción|estado)
-- Objetivo: Encontrar política óptima
+**Características Distintivas**:
+- **Aprendizaje por Interacción**: No existe dataset etiquetado; el agente aprende mediante prueba y error
+- **Retroalimentación Retrasada**: Consecuencias de acciones pueden manifestarse temporal mente distantes
+- **Trade-off Exploración-Explotación**: Balance entre explorar nuevas estrategias y explotar conocimiento actual
+- **Decisiones Secuenciales**: Acciones presentes afectan estados y oportunidades futuras
 
-### 2.2 Funciones de valor
-- **Value Function V(s)**: valor esperado desde estado s
-- **Action-Value Q(s,a)**: Valor de acción a en estado s
-- **Advantage A(s,a) = Q(s,a) - V(s)**
+**Componentes del Sistema RL**:
+- **Agente**: Entidad que toma decisiones y aprende
+- **Entorno**: Sistema con el cual el agente interacta
+- **Estado ($s$)**: Representación de configuración actual del entorno
+- **Acción ($a$)**: Decisión tomada por el agente
+- **Recompensa ($r$)**: Señal escalar de feedback del entorno
+- **Política ($\pi$)**: Estrategia del agente, mapeo estado→acción
 
-### 2.3 Ecuación de Bellman
-```
-V(s) = E[R(s,a) + γV(s') | π]
-Q(s,a) = E[R(s,a) + γmax Q(s',a')]
-```
-Descomposición: valor = recompensa inmediata + valor futuro
+### 1.2 Procesos de Decisión de Markov (MDP)
 
-### 2.4 Exploración-Explotación
-- ε-greedy: Aleatorio con probabilidad ε
-- Boltzmann: Probabilístico con temperatura
-- UCB (Upper Confidence Bound)
-- Thompson Sampling
+Formalización matemática del problema de RL:
 
-## 3. Métodos value-based
+**Definición Formal**:
+Un MDP se define mediante la tupla $(\mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma)$:
+
+- $\mathcal{S}$: Espacio de estados
+- $\mathcal{A}$: Espacio de acciones
+- $\mathcal{P}(s'|s,a)$: Función de transición (dinámica del entorno)
+- $\mathcal{R}(s,a,s')$: Función de recompensa
+- $\gamma \in [0,1)$: Factor de descuento temporal
+
+**Propiedad de Markov**:
+$$P(s_{t+1}|s_t, a_t, s_{t-1}, a_{t-1}, \ldots, s_0, a_0) = P(s_{t+1}|s_t, a_t)$$
+
+El futuro depende únicamente del estado presente, no de la historia completa. Esta propiedad permite tractabilidad computacional.
+
+**Retorno Descontado**:
+$$G_t = r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + \cdots = \sum_{k=0}^{\infty}\gamma^k r_{t+k}$$
+
+El factor $\gamma$ modela preferencia temporal: recompensas inmediatas valen más que futuras.
+
+### 1.3 Políticas y Funciones de Valor
+
+**Política**:
+- **Determinística**: $\pi(s) = a$
+- **Estocástica**: $\pi(a|s) = P(\text{acción}=a|\text{estado}=s)$
+
+**Función de Valor de Estado**:
+$$V^\pi(s) = \mathbb{E}_\pi\left[\sum_{k=0}^{\infty}\gamma^k r_{t+k} \mid s_t=s\right]$$
+
+Valor esperado de retorno comenzando en estado $s$ siguiendo política $\pi$.
+
+**Función de Valor de Acción (Q-Function)**:
+$$Q^\pi(s,a) = \mathbb{E}_\pi\left[\sum_{k=0}^{\infty}\gamma^k r_{t+k} \mid s_t=s, a_t=a\right]$$
+
+Valor esperado comenzando en $s$, tomando acción $a$, luego siguiendo $\pi$.
+
+**Función de Ventaja**:
+$$A^\pi(s,a) = Q^\pi(s,a) - V^\pi(s)$$
+
+Cuánto mejor es tomar acción $a$ comparado con seguir la política.
+
+**Ecuaciones de Bellman**:
+$$V^\pi(s) = \sum_a \pi(a|s)\sum_{s',r}P(s',r|s,a)[r + \gamma V^\pi(s')]$$
+$$Q^\pi(s,a) = \sum_{s',r}P(s',r|s,a)[r + \gamma \sum_{a'}\pi(a'|s')Q^\pi(s',a')]$$
+
+Descomposición recursiva: valor = recompensa inmediata + valor descontado del futuro.
+
+### 1.4 Políticas Óptimas
+
+**Política Óptima**: $\pi^* = \arg\max_\pi V^\pi(s), \forall s$
+
+**Ecuación de Optimalidad de Bellman**:
+$$V^*(s) = \max_a \sum_{s',r}P(s',r|s,a)[r + \gamma V^*(s')]$$
+$$Q^*(s,a) = \sum_{s',r}P(s',r|s,a)[r + \gamma \max_{a'}Q^*(s',a')]$$
+
+Dado $Q^*$, política óptima es: $\pi^*(s) = \arg\max_a Q^*(s,a)$
+
+## 2. Trade-off Exploración-Explotación
+
+Dilema fundamental: ¿explorar para descubrir potencialmente mejores acciones, o explotar conocimiento actual?
+
+### 2.1 Estrategias de Exploración
+
+**ε-Greedy**:
+$$a = \begin{cases}
+\arg\max_a Q(s,a) & \text{con probabilidad } 1-\epsilon \\
+\text{acción aleatoria} & \text{con probabilidad } \epsilon
+\end{cases}$$
+
+Simple pero efectivo. $\epsilon$ típicamente decae durante entrenamiento.
+
+**Boltzmann Exploration (Softmax)**:
+$$P(a|s) = \frac{\exp(Q(s,a)/\tau)}{\sum_{a'}\exp(Q(s,a')/\tau)}$$
+
+$\tau$ (temperatura) controla aleatoriedad. $\tau \to 0$: greedy, $\tau \to \infty$: uniforme.
+
+**Upper Confidence Bound (UCB)**:
+$$a_t = \arg\max_a \left[Q(s,a) + c\sqrt{\frac{\ln t}{N(s,a)}}\right]$$
+
+Favorece acciones prometedoras pero poco exploradas.
+
+**Thompson Sampling**:
+Muestreo probabilístico desde distribuciones bayesianas sobre valores estimados.
+
+## 3. Algoritmos Value-Based
 
 ### 3.1 Q-Learning
-- Off-policy: Aprende política óptima mientras explora
-- Bellman update: Q(s,a) ← Q(s,a) + α[r + γmax Q(s',a') - Q(s,a)]
-- Convergencia garantizada con tabla finita
-- Impracticable para espacios grandes
+
+Algoritmo off-policy que aprende $Q^*$ directamente:
+
+**Regla de Actualización**:
+$$Q(s_t,a_t) \leftarrow Q(s_t,a_t) + \alpha[r_t + \gamma \max_{a'}Q(s_{t+1},a') - Q(s_t,a_t)]$$
+
+**Propiedades**:
+- **Off-policy**: Aprende política óptima mientras sigue política exploratoria
+- **Convergencia**: Garantizada bajo condiciones estándar (visitas infinitas, decaimiento de learning rate)
+- **Tabular**: Tabla Q para espacios discretos pequeños
+
+**Limitaciones**:
+- Impracticable para espacios de estados grandes/continuos
+- Requiere discretización o aproximación de funciones
 
 ### 3.2 Deep Q-Networks (DQN)
-- Aproxima Q-values con red neuronal
-- Experience Replay: Almacena y muestrea transiciones
-- Target Network: Red separada para estabilidad
-- Double DQN, Dueling DQN: Mejoras
 
-### 3.3 SARSA
-- On-policy: Aprende política actual
+Aproximación de Q-function con redes neuronales profundas:
+
+**Innovaciones Clave**:
+
+**Experience Replay**:
+- Almacena transiciones $(s,a,r,s')$ en buffer de memoria
+- Muestrea mini-batches aleatorios para entrenamiento
+- Rompe correlaciones temporales, estabiliza aprendizaje
+- Reutilización eficiente de datos
+
+**Target Network**:
+- Red separada $Q_{\theta^-}$ con parámetros $\theta^-$ actualizados periódicamente
+- Loss: $\mathcal{L} = \mathbb{E}[(r + \gamma \max_{a'}Q_{\theta^-}(s',a') - Q_\theta(s,a))^2]$
+- Estabiliza entrenamiento evitando moving targets
+
+**Arquitectura**:
+- Input: Estado (e.g., pixels de juego)
+- Capas convolucionales para procesamiento visual
+- Capas fully-connected
+- Output: Q-values para cada acción
+
+**Variantes Avanzadas**:
+- **Double DQN**: Desacopla selección y evaluación de acción, reduce overestimation
+- **Dueling DQN**: Arquitectura separada para $V(s)$ y $A(s,a)$, mejora aprendizaje
+- **Prioritized Experience Replay**: Muestrea transiciones importantes más frecuentemente
+- **Rainbow DQN**: Combinación de múltiples mejoras
+
+### 3.3 SARSA (State-Action-Reward-State-Action)
+
+Algoritmo on-policy que aprende la política que está siguiendo:
+
+$$Q(s_t,a_t) \leftarrow Q(s_t,a_t) + \alpha[r_t + \gamma Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)]$$
+
+Diferencia con Q-Learning: usa $Q(s_{t+1},a_{t+1})$ (acción realmente tomada) en lugar de $\max_{a'}Q(s_{t+1},a')$.
+
+**Características**:
 - Más conservador que Q-Learning
-- Útil para control en línea
+- Aprende política incluyendo exploración
+- Útil para control online seguro
 
-## 4. Métodos policy-based
+## 4. Algoritmos Policy-Based
+
+Optimizan política directamente sin función de valor intermediaria.
 
 ### 4.1 Policy Gradient
-- Optimiza política directamente
-- ∇J(θ) ∝ E[∇log π(a|s)Q(s,a)]
-- Ventaja: Políticas estocásticas, espacios continuos
+
+**Objetivo**: Maximizar retorno esperado
+$$J(\theta) = \mathbb{E}_{\tau \sim \pi_\theta}[G(\tau)]$$
+
+donde $\tau$ es trayectoria completa.
+
+**Policy Gradient Theorem**:
+$$\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta}[\nabla_\theta \log \pi_\theta(a|s) Q^{\pi_\theta}(s,a)]$$
+
+**Ventajas**:
+- Funciona con espacios de acción continuos
+- Puede aprender políticas estocásticas
+- Convergencia a óptimo local (gradiente ascendente)
 
 ### 4.2 REINFORCE (Monte Carlo Policy Gradient)
-- Usa retornos episódicos completos
-- Alto varianza, bajo sesgo
-- Simple de implementar
 
-### 4.3 Actor-Critic
-- Actor: Política (policy)
-- Critic: Función de valor (baseline)
-- Reduce varianza vs REINFORCE
-- Ejemplo: A3C (Asynchronous Advantage Actor-Critic)
+Algoritmo básico de policy gradient:
 
-### 4.4 Métodos avanzados
-- **PPO (Proximal Policy Optimization)**: clipping de ratio
-- **TRPO (Trust Region)**: Restricción de región segura
-- **A3C**: Actor-Critic asincrónico paralelo
-- **SAC (Soft Actor-Critic)**: Máxima entropía
+**Actualización**:
+$$\theta \leftarrow \theta + \alpha \nabla_\theta \log \pi_\theta(a_t|s_t) G_t$$
 
-## 5. Model-Based RL
+Usa retorno completo del episodio $G_t$. Alta varianza, bajo sesgo.
 
-### 5.1 Aprendizaje de dinámicas
-- Aprende modelo: P(s'|s,a) y R(s,a)
-- Planning: Usa modelo para decisiones
-- Data-efficient pero requiere más cómputo
+**Baseline**:
+Para reducir varianza: $\nabla_\theta J \approx \mathbb{E}[\nabla_\theta \log \pi_\theta(a|s)(G_t - b(s))]$
 
-### 5.2 Métodos de planning
-- Dyna: combina learning y planning
-- Tree search: Monte Carlo Tree Search (MCTS)
-- AlphaGo: Combinación redes neuronales + MCTS
+Baseline típico: $b(s) = V(s)$
 
-## 6. Aplicaciones prácticas
+### 4.3 Métodos Actor-Critic
+
+Combinan policy-based (actor) con value-based (critic):
+
+**Actor**: Política $\pi_\theta(a|s)$ que selecciona acciones
+**Critic**: Función de valor $V_\phi(s)$ o $Q_\phi(s,a)$ que evalúa acciones
+
+**Ventaja**:
+- Actor proporciona policy gradient
+- Critic reduce varianza como baseline
+- Menor varianza que REINFORCE puro
+
+**Actualización Actor**:
+$$\theta \leftarrow \theta + \alpha \nabla_\theta \log \pi_\theta(a|s) A(s,a)$$
+
+donde $A(s,a) = r + \gamma V(s') - V(s)$ (TD error como estimador de ventaja)
+
+**Actualización Critic**:
+$$\phi \leftarrow \phi + \beta \nabla_\phi (r + \gamma V_\phi(s') - V_\phi(s))^2$$
+
+### 4.4 Algoritmos Avanzados
+
+**A3C (Asynchronous Advantage Actor-Critic)**:
+- Múltiples agentes en paralelo explorando independientemente
+- Actualizaciones asíncronas de parámetros globales
+- Diversidad de experiencias estabiliza aprendizaje
+
+**PPO (Proximal Policy Optimization)**:
+- Restricción sobre magnitud de actualización de política
+- Clipping de ratio de probabilidad:
+$$L^{CLIP}(\theta) = \mathbb{E}[\min(r_t(\theta)\hat{A}_t, \text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t)]$$
+- Estado del arte en muchos dominios
+- Robusto, fácil de tunear
+
+**TRPO (Trust Region Policy Optimization)**:
+- Optimización con restricción KL-divergence
+- Garantías teóricas de mejora monotónica
+- Más complejo computacionalmente que PPO
+
+**SAC (Soft Actor-Critic)**:
+- Maximiza entropía además de recompensa
+- Fomenta exploración
+- Excelente para tareas continuas
+
+## 5. Model-Based Reinforcement Learning
+
+Aprende modelo del entorno para planificación:
+
+### 5.1 Aprendizaje de Dinámicas
+
+**Modelo de Transición**: $\hat{P}(s'|s,a)$
+**Modelo de Recompensa**: $\hat{R}(s,a)$
+
+**Métodos**:
+- Redes neuronales para aproximar dinámicas
+- Modelos probabilísticos (Gaussian Processes, Bayesian NNs)
+- Ensemble de modelos para cuantificar incertidumbre
+
+### 5.2 Planning con Modelos
+
+**Dyna-Q**: Combina experiencia real con simulaciones del modelo
+**MCTS (Monte Carlo Tree Search)**: Búsqueda en árbol guiada por simulaciones
+**MuZero**: Aprende modelo latente del entorno, planning implícito
+
+**Trade-offs**:
+- **Eficiencia de datos**: Modelos permiten más aprendizaje por interacción real
+- **Costo computacional**: Planning requiere más cómputo
+- **Error del modelo**: Sesgos del modelo pueden perjudicar rendimiento
+
+## 6. Aplicaciones Emblemáticas
 
 ### 6.1 Juegos
-- Atari: DQN, Rainbow
-- Go: AlphaGo (policy + value networks)
-- Ajedrez: AlphaZero (self-play, MCTS)
+
+**AlphaGo / AlphaZero**:
+- Dominio de Go, ajedrez, shogi
+- MCTS + Deep RL
+- Self-play para generar datos
+
+**OpenAI Five (Dota 2)**:
+- PPO a escala masiva
+- Coordinación multiagente
+- Horizonte temporal largo
+
+**Atari Games**:
+- DQN demostró aprendizaje end-to-end desde pixels
+- Benchmark estándar para algoritmos RL
 
 ### 6.2 Robótica
-- Manipulación: Aprehensión de objetos
-- Navegación: Path planning
-- Control motor: Movimientos fluidos
 
-### 6.3 Sistemas reales
-- Conducción autónoma
-- Optimización de energía
-- Trading algorítmico
-- Recomendaciones personalizadas
+- Manipulación de objetos
+- Locomoción (caminar, correr)
+- Control de drones
+- Ensamblaje industrial
 
-## 7. Desafíos
+### 6.3 Sistemas de Control
 
-### 7.1 Muestra ineficiencia
-- Requiere millones de interacciones
-- Impracticable para sistemas reales
-- Solución: Transfer learning, simuladores
+- Optimización de data centers (Google)
+- Control de fusión nuclear (DeepMind/TAE)
+- Gestión de tráfico
+- Sistemas de energía renovable
 
-### 7.2 Reward Shaping
-- Diseño de función de recompensa es crítico
-- Pobre diseño → Comportamiento no deseado
-- Aprendizaje inverso: Inferir recompensas
+### 6.4 Finanzas y Trading
 
-### 7.3 No-estacionariedad
-- Ambiente puede cambiar
-- Políticas viejas pueden fallar
-- Adaptación continua requerida
+- Optimización de portafolios
+- Market making
+- Ejecución de órdenes
+
+### 6.5 Salud
+
+- Personalización de tratamientos
+- Dosificación óptima
+- Planificación quirúrgica
+
+## 7. Desafíos y Direcciones Futuras
+
+### 7.1 Sample Efficiency
+
+RL típicamente requiere millones de interacciones. Mejoras:
+- Model-based RL
+- Meta-learning
+- Transfer learning
+- Curriculum learning
+
+### 7.2 Sparse Rewards
+
+Cuando recompensas son infrecuentes:
+- Reward shaping
+- Hindsight Experience Replay
+- Intrinsic motivation
+
+### 7.3 Partial Observability
+
+Cuando agente no observa estado completo:
+- POMDPs (Partially Observable MDPs)
+- Recurrent policies (LSTM, GRU)
+- Belief state tracking
+
+### 7.4 Multi-Agent RL
+
+Múltiples agentes interactuando:
+- Competitivo, cooperativo, mixto
+- Equilibrios de Nash
+- Comunicación entre agentes
+
+### 7.5 Seguridad y Robustez
+
+- Constrained RL (satisfacción de restricciones)
+- Safe exploration
+- Robustez ante adversarios
+- Verificación formal
+
+## Referencias
+
+- Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
+- Mnih, V., et al. (2015). Human-level control through deep reinforcement learning. *Nature*, 518, 529-533.
+- Schulman, J., et al. (2017). Proximal policy optimization algorithms. *arXiv preprint arXiv:1707.06347*.
+- Silver, D., et al. (2017). Mastering the game of Go without human knowledge. *Nature*, 550, 354-359.
+- Haarnoja, T., et al. (2018). Soft actor-critic. *ICML*.
